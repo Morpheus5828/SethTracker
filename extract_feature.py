@@ -1,4 +1,6 @@
 import os
+import statistics
+
 import librosa
 import numpy as np
 import time
@@ -41,6 +43,17 @@ def get_db(file):
     y, sr = librosa.load(file)
     S = np.abs(librosa.stft(y))
     return librosa.power_to_db(S**2).mean()
+
+
+def get_wave(file):
+    y, sr = librosa.load(file, duration=10)
+    fig, ax = plt.subplots(nrows=1, sharex=True)
+    ax.set(xlim=[0.75, 5], title='Wave', ylim=[-1, 1])
+    librosa.display.waveshow(y, sr=sr, ax=ax, marker='.', label='Full signal')
+    ax.label_outer()
+    plt.show()
+
+
 
 
 def main():
@@ -175,7 +188,7 @@ def main():
             "\t" + file + " , Tempo:" + str(get_tempo(file)) + " , DB: " + str(get_db(file)) + "\n")
 
     tristesse_feature_result.close()'''
-
+    get_wave("dataset/CaFE_192k_1_/Colère/Fort/01-C-2-1.aiff")
     end = time.time()
     print("Time: " + str(end-start))
 
