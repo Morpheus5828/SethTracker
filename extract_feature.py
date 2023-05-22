@@ -9,11 +9,17 @@ import pandas as pd
 french_ds = os.listdir('dataset/Fr')
 french_ds_features = open('evaluation/Fr_features', 'w')
 
-dico_audio_note = {}
+'''dico_audio_note = {}
 
 with open('./dataset/Fr_annotate.csv', newline='') as file:
     for i in csv.DictReader(file):
-        dico_audio_note[i.get('AUDIO')] = i.get('NOTE')
+        dico_audio_note[i.get('AUDIO')] = i.get('NOTE')'''
+
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
 
 def exist(file):
@@ -55,12 +61,6 @@ def get_wave(file):
         return None
 
 
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-
 def get_plot_from_wave(wave):
     positive_list = []
     negative_list = []
@@ -100,15 +100,14 @@ def get_coef(x1, x2, y1, y2):
         return delta_y / delta_x
 
 
-def main():
-    start = time.time()
-
+def write_feature_info(file_dest, dico):
     try:
-        for audio in dico_audio_note:
-            french_ds_features.write(
+        file_dest = open(file_dest, "w")
+        for audio in dico:
+            file_dest.write(
                 str(audio) +
                 " -> " +
-                "NOTE: " + str(dico_audio_note.get(audio)) + " " +
+                "NOTE: " + str(dico.get(audio)) + " " +
                 "DB: " + str(get_db('dataset/Fr/' + audio + ".mp3")) + " " +
                 "TEMPO: " + str(get_tempo('dataset/Fr/' + audio + ".mp3")) + "\n"
             )
@@ -116,7 +115,39 @@ def main():
     except ValueError:
         print("error")
 
-    french_ds_features.close()
+    file_dest.close()
+
+
+def extract_csv_to_dico(dico_path):
+    dico_audio_note = {}
+    with open(dico_path, newline='') as file:
+        for i in csv.DictReader(file):
+            dico_audio_note[i.get('AUDIO')] = i.get('NOTE')
+    return dico_audio_note
+
+
+def extract_db_vector(txt_path_file):
+    dico_audio_note = {}
+    with open(txt_path_file) as file:
+        print(file.readlines())
+
+    print()
+
+
+def extract_tempo_vector(txt_path_file):
+    pass
+
+
+def extract_notation_vector(txt_path_file):
+    pass
+
+
+def main():
+    start = time.time()
+
+    dico = extract_csv_to_dico("./dataset/Fr_annotate.csv")
+    write_feature_info("./evaluation/Fr_features", dico)
+    extract_db_vector("./evaluation/Fr_features")
 
     end = time.time()
     print("Time: " + str(end - start))
