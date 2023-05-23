@@ -5,9 +5,9 @@ import numpy as np
 import time
 import matplotlib.pylab as plt
 import pandas as pd
+import json
 
 french_ds = os.listdir('dataset/Fr')
-french_ds_features = open('evaluation/Fr_features', 'w')
 
 '''dico_audio_note = {}
 
@@ -31,7 +31,7 @@ def get_tempo(file):
         y, sr = librosa.load(file)
         onset_env = librosa.onset.onset_strength(y=y, sr=sr)
         tempo = librosa.feature.tempo(onset_envelope=onset_env, sr=sr)
-        return str(tempo)
+        return int(tempo)
 
 
 def get_freq_average(file):
@@ -46,7 +46,7 @@ def get_db(file):
     if exist(file):
         y, sr = librosa.load(file)
         S = np.abs(librosa.stft(y))
-        return librosa.power_to_db(S ** 2).mean()
+        return int(abs(librosa.power_to_db(S ** 2).mean()))
 
 
 def get_wave(file):
@@ -103,13 +103,22 @@ def get_coef(x1, x2, y1, y2):
 def write_feature_info(file_dest, dico):
     try:
         file_dest = open(file_dest, "w")
-        for audio in dico:
+        #print(type(dic))
+        for index in range(1, 303, 1):
             file_dest.write(
-                str(audio) +
+                str(index) +
                 " -> " +
-                "NOTE: " + str(dico.get(audio)) + " " +
-                "DB: " + str(get_db('dataset/Fr/' + audio + ".mp3")) + " " +
-                "TEMPO: " + str(get_tempo('dataset/Fr/' + audio + ".mp3")) + "\n"
+                "NOTE: " + str(dico.get(index)) + " " +
+                "DB: " + str(get_db('dataset/Fr/' + str(dico.get(index)) + ".mp3")) + " " +
+                "TEMPO: " + str(get_tempo('dataset/Fr/' + str(dico.get(index)) + ".mp3")) + "\n"
+            )
+        for index in range(1, 440, 1):
+            file_dest.write(
+                str(index) +
+                " -> " +
+                "NOTE: " + str(dico.get(index)) + " " +
+                "DB: " + str(get_db('dataset/H/' + str(dico.get(index)) + ".mp3")) + " " +
+                "TEMPO: " + str(get_tempo('dataset/H/' + str(dico.get(index)) + ".mp3")) + "\n"
             )
 
     except ValueError:
@@ -127,27 +136,43 @@ def extract_csv_to_dico(dico_path):
 
 
 def extract_db_vector(txt_path_file):
-    dico_audio_note = {}
+    dbs = []
     with open(txt_path_file) as file:
-        print(file.readlines())
-
-    print()
+        for row in file.readlines():
+            audio_info = row.split("->")[1]
+            if audio_info.split("DB: ")[1][0] != 'N':
+                dbs.append(int(audio_info.split("DB: ")[1][0] + audio_info.split("DB: ")[1][1]))
+            else:
+                dbs.append("null")
+    return dbs
 
 
 def extract_tempo_vector(txt_path_file):
-    pass
+    tempos = []
+    with open(txt_path_file) as file:
+        for row in file.readlines():
+            audio_info = row.split("->")[1]
+            tempos.append(
+                audio_info.split("TEMPO: ")[1][0] + \
+                audio_info.split("TEMPO: ")[1][1] + \
+                audio_info.split("TEMPO: ")[1][2])
+    return tempos
 
 
 def extract_notation_vector(txt_path_file):
-    pass
-
+    vectors = []
+    with open(txt_path_file) as file:
+        for row in file.readlines():
+            audio_info = row.split("->")[1]
+            vectors.append(audio_info.split("NOTE: ")[1][0])
+    return vectors
 
 def main():
     start = time.time()
 
     dico = extract_csv_to_dico("./dataset/Fr_annotate.csv")
     write_feature_info("./evaluation/Fr_features", dico)
-    extract_db_vector("./evaluation/Fr_features")
+    #print(extract_notation_vector("./evaluation/Fr_features"))
 
     end = time.time()
     print("Time: " + str(end - start))
