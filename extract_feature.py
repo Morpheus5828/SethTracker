@@ -47,6 +47,8 @@ def get_db(file):
         y, sr = librosa.load(file)
         S = np.abs(librosa.stft(y))
         return int(abs(librosa.power_to_db(S ** 2).mean()))
+    else:
+        print(file)
 
 
 def get_wave(file):
@@ -103,22 +105,13 @@ def get_coef(x1, x2, y1, y2):
 def write_feature_info(file_dest, dico):
     try:
         file_dest = open(file_dest, "w")
-        #print(type(dic))
-        for index in range(1, 303, 1):
+        for audio in dico:
             file_dest.write(
-                str(index) +
+                str(audio) +
                 " -> " +
-                "NOTE: " + str(dico.get(index)) + " " +
-                "DB: " + str(get_db('dataset/Fr/' + str(dico.get(index)) + ".mp3")) + " " +
-                "TEMPO: " + str(get_tempo('dataset/Fr/' + str(dico.get(index)) + ".mp3")) + "\n"
-            )
-        for index in range(1, 440, 1):
-            file_dest.write(
-                str(index) +
-                " -> " +
-                "NOTE: " + str(dico.get(index)) + " " +
-                "DB: " + str(get_db('dataset/H/' + str(dico.get(index)) + ".mp3")) + " " +
-                "TEMPO: " + str(get_tempo('dataset/H/' + str(dico.get(index)) + ".mp3")) + "\n"
+                "NOTE: " + str(dico.get(audio)) + " " +
+                "DB: " + str(get_db('dataset/Fr/' + str(audio) + ".mp3")) + " " +
+                "TEMPO: " + str(get_tempo('dataset/Fr/' + str(audio) + ".mp3")) + "\n"
             )
 
     except ValueError:

@@ -3,8 +3,8 @@ import extract_feature as ef
 
 
 def main():
-    #dico = ef.extract_csv_to_dico("./dataset/Fr_annotate.csv")
-    #ef.write_feature_info("./evaluation/Fr_features", dico)
+    dico = ef.extract_csv_to_dico("./dataset/Fr_annotate.csv")
+    ef.write_feature_info("./evaluation/Fr_features", dico)
     feature_path = "./evaluation/Fr_features"
     db = ef.extract_db_vector(feature_path)
     note = ef.extract_notation_vector(feature_path)
@@ -20,9 +20,6 @@ def main():
 
 
     #plt.show()
-
-
-
 
 
 main()

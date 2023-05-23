@@ -1,741 +1,741 @@
-1 -> NOTE: None DB: None TEMPO: None
-2 -> NOTE: None DB: None TEMPO: None
-3 -> NOTE: None DB: None TEMPO: None
-4 -> NOTE: None DB: None TEMPO: None
-5 -> NOTE: None DB: None TEMPO: None
-6 -> NOTE: None DB: None TEMPO: None
-7 -> NOTE: None DB: None TEMPO: None
-8 -> NOTE: None DB: None TEMPO: None
-9 -> NOTE: None DB: None TEMPO: None
-10 -> NOTE: None DB: None TEMPO: None
-11 -> NOTE: None DB: None TEMPO: None
-12 -> NOTE: None DB: None TEMPO: None
-13 -> NOTE: None DB: None TEMPO: None
-14 -> NOTE: None DB: None TEMPO: None
-15 -> NOTE: None DB: None TEMPO: None
-16 -> NOTE: None DB: None TEMPO: None
-17 -> NOTE: None DB: None TEMPO: None
-18 -> NOTE: None DB: None TEMPO: None
-19 -> NOTE: None DB: None TEMPO: None
-20 -> NOTE: None DB: None TEMPO: None
-21 -> NOTE: None DB: None TEMPO: None
-22 -> NOTE: None DB: None TEMPO: None
-23 -> NOTE: None DB: None TEMPO: None
-24 -> NOTE: None DB: None TEMPO: None
-25 -> NOTE: None DB: None TEMPO: None
-26 -> NOTE: None DB: None TEMPO: None
-27 -> NOTE: None DB: None TEMPO: None
-28 -> NOTE: None DB: None TEMPO: None
-29 -> NOTE: None DB: None TEMPO: None
-30 -> NOTE: None DB: None TEMPO: None
-31 -> NOTE: None DB: None TEMPO: None
-32 -> NOTE: None DB: None TEMPO: None
-33 -> NOTE: None DB: None TEMPO: None
-34 -> NOTE: None DB: None TEMPO: None
-35 -> NOTE: None DB: None TEMPO: None
-36 -> NOTE: None DB: None TEMPO: None
-37 -> NOTE: None DB: None TEMPO: None
-38 -> NOTE: None DB: None TEMPO: None
-39 -> NOTE: None DB: None TEMPO: None
-40 -> NOTE: None DB: None TEMPO: None
-41 -> NOTE: None DB: None TEMPO: None
-42 -> NOTE: None DB: None TEMPO: None
-43 -> NOTE: None DB: None TEMPO: None
-44 -> NOTE: None DB: None TEMPO: None
-45 -> NOTE: None DB: None TEMPO: None
-46 -> NOTE: None DB: None TEMPO: None
-47 -> NOTE: None DB: None TEMPO: None
-48 -> NOTE: None DB: None TEMPO: None
-49 -> NOTE: None DB: None TEMPO: None
-50 -> NOTE: None DB: None TEMPO: None
-51 -> NOTE: None DB: None TEMPO: None
-52 -> NOTE: None DB: None TEMPO: None
-53 -> NOTE: None DB: None TEMPO: None
-54 -> NOTE: None DB: None TEMPO: None
-55 -> NOTE: None DB: None TEMPO: None
-56 -> NOTE: None DB: None TEMPO: None
-57 -> NOTE: None DB: None TEMPO: None
-58 -> NOTE: None DB: None TEMPO: None
-59 -> NOTE: None DB: None TEMPO: None
-60 -> NOTE: None DB: None TEMPO: None
-61 -> NOTE: None DB: None TEMPO: None
-62 -> NOTE: None DB: None TEMPO: None
-63 -> NOTE: None DB: None TEMPO: None
-64 -> NOTE: None DB: None TEMPO: None
-65 -> NOTE: None DB: None TEMPO: None
-66 -> NOTE: None DB: None TEMPO: None
-67 -> NOTE: None DB: None TEMPO: None
-68 -> NOTE: None DB: None TEMPO: None
-69 -> NOTE: None DB: None TEMPO: None
-70 -> NOTE: None DB: None TEMPO: None
-71 -> NOTE: None DB: None TEMPO: None
-72 -> NOTE: None DB: None TEMPO: None
-73 -> NOTE: None DB: None TEMPO: None
-74 -> NOTE: None DB: None TEMPO: None
-75 -> NOTE: None DB: None TEMPO: None
-76 -> NOTE: None DB: None TEMPO: None
-77 -> NOTE: None DB: None TEMPO: None
-78 -> NOTE: None DB: None TEMPO: None
-79 -> NOTE: None DB: None TEMPO: None
-80 -> NOTE: None DB: None TEMPO: None
-81 -> NOTE: None DB: None TEMPO: None
-82 -> NOTE: None DB: None TEMPO: None
-83 -> NOTE: None DB: None TEMPO: None
-84 -> NOTE: None DB: None TEMPO: None
-85 -> NOTE: None DB: None TEMPO: None
-86 -> NOTE: None DB: None TEMPO: None
-87 -> NOTE: None DB: None TEMPO: None
-88 -> NOTE: None DB: None TEMPO: None
-89 -> NOTE: None DB: None TEMPO: None
-90 -> NOTE: None DB: None TEMPO: None
-91 -> NOTE: None DB: None TEMPO: None
-92 -> NOTE: None DB: None TEMPO: None
-93 -> NOTE: None DB: None TEMPO: None
-94 -> NOTE: None DB: None TEMPO: None
-95 -> NOTE: None DB: None TEMPO: None
-96 -> NOTE: None DB: None TEMPO: None
-97 -> NOTE: None DB: None TEMPO: None
-98 -> NOTE: None DB: None TEMPO: None
-99 -> NOTE: None DB: None TEMPO: None
-100 -> NOTE: None DB: None TEMPO: None
-101 -> NOTE: None DB: None TEMPO: None
-102 -> NOTE: None DB: None TEMPO: None
-103 -> NOTE: None DB: None TEMPO: None
-104 -> NOTE: None DB: None TEMPO: None
-105 -> NOTE: None DB: None TEMPO: None
-106 -> NOTE: None DB: None TEMPO: None
-107 -> NOTE: None DB: None TEMPO: None
-108 -> NOTE: None DB: None TEMPO: None
-109 -> NOTE: None DB: None TEMPO: None
-110 -> NOTE: None DB: None TEMPO: None
-111 -> NOTE: None DB: None TEMPO: None
-112 -> NOTE: None DB: None TEMPO: None
-113 -> NOTE: None DB: None TEMPO: None
-114 -> NOTE: None DB: None TEMPO: None
-115 -> NOTE: None DB: None TEMPO: None
-116 -> NOTE: None DB: None TEMPO: None
-117 -> NOTE: None DB: None TEMPO: None
-118 -> NOTE: None DB: None TEMPO: None
-119 -> NOTE: None DB: None TEMPO: None
-120 -> NOTE: None DB: None TEMPO: None
-121 -> NOTE: None DB: None TEMPO: None
-122 -> NOTE: None DB: None TEMPO: None
-123 -> NOTE: None DB: None TEMPO: None
-124 -> NOTE: None DB: None TEMPO: None
-125 -> NOTE: None DB: None TEMPO: None
-126 -> NOTE: None DB: None TEMPO: None
-127 -> NOTE: None DB: None TEMPO: None
-128 -> NOTE: None DB: None TEMPO: None
-129 -> NOTE: None DB: None TEMPO: None
-130 -> NOTE: None DB: None TEMPO: None
-131 -> NOTE: None DB: None TEMPO: None
-132 -> NOTE: None DB: None TEMPO: None
-133 -> NOTE: None DB: None TEMPO: None
-134 -> NOTE: None DB: None TEMPO: None
-135 -> NOTE: None DB: None TEMPO: None
-136 -> NOTE: None DB: None TEMPO: None
-137 -> NOTE: None DB: None TEMPO: None
-138 -> NOTE: None DB: None TEMPO: None
-139 -> NOTE: None DB: None TEMPO: None
-140 -> NOTE: None DB: None TEMPO: None
-141 -> NOTE: None DB: None TEMPO: None
-142 -> NOTE: None DB: None TEMPO: None
-143 -> NOTE: None DB: None TEMPO: None
-144 -> NOTE: None DB: None TEMPO: None
-145 -> NOTE: None DB: None TEMPO: None
-146 -> NOTE: None DB: None TEMPO: None
-147 -> NOTE: None DB: None TEMPO: None
-148 -> NOTE: None DB: None TEMPO: None
-149 -> NOTE: None DB: None TEMPO: None
-150 -> NOTE: None DB: None TEMPO: None
-151 -> NOTE: None DB: None TEMPO: None
-152 -> NOTE: None DB: None TEMPO: None
-153 -> NOTE: None DB: None TEMPO: None
-154 -> NOTE: None DB: None TEMPO: None
-155 -> NOTE: None DB: None TEMPO: None
-156 -> NOTE: None DB: None TEMPO: None
-157 -> NOTE: None DB: None TEMPO: None
-158 -> NOTE: None DB: None TEMPO: None
-159 -> NOTE: None DB: None TEMPO: None
-160 -> NOTE: None DB: None TEMPO: None
-161 -> NOTE: None DB: None TEMPO: None
-162 -> NOTE: None DB: None TEMPO: None
-163 -> NOTE: None DB: None TEMPO: None
-164 -> NOTE: None DB: None TEMPO: None
-165 -> NOTE: None DB: None TEMPO: None
-166 -> NOTE: None DB: None TEMPO: None
-167 -> NOTE: None DB: None TEMPO: None
-168 -> NOTE: None DB: None TEMPO: None
-169 -> NOTE: None DB: None TEMPO: None
-170 -> NOTE: None DB: None TEMPO: None
-171 -> NOTE: None DB: None TEMPO: None
-172 -> NOTE: None DB: None TEMPO: None
-173 -> NOTE: None DB: None TEMPO: None
-174 -> NOTE: None DB: None TEMPO: None
-175 -> NOTE: None DB: None TEMPO: None
-176 -> NOTE: None DB: None TEMPO: None
-177 -> NOTE: None DB: None TEMPO: None
-178 -> NOTE: None DB: None TEMPO: None
-179 -> NOTE: None DB: None TEMPO: None
-180 -> NOTE: None DB: None TEMPO: None
-181 -> NOTE: None DB: None TEMPO: None
-182 -> NOTE: None DB: None TEMPO: None
-183 -> NOTE: None DB: None TEMPO: None
-184 -> NOTE: None DB: None TEMPO: None
-185 -> NOTE: None DB: None TEMPO: None
-186 -> NOTE: None DB: None TEMPO: None
-187 -> NOTE: None DB: None TEMPO: None
-188 -> NOTE: None DB: None TEMPO: None
-189 -> NOTE: None DB: None TEMPO: None
-190 -> NOTE: None DB: None TEMPO: None
-191 -> NOTE: None DB: None TEMPO: None
-192 -> NOTE: None DB: None TEMPO: None
-193 -> NOTE: None DB: None TEMPO: None
-194 -> NOTE: None DB: None TEMPO: None
-195 -> NOTE: None DB: None TEMPO: None
-196 -> NOTE: None DB: None TEMPO: None
-197 -> NOTE: None DB: None TEMPO: None
-198 -> NOTE: None DB: None TEMPO: None
-199 -> NOTE: None DB: None TEMPO: None
-200 -> NOTE: None DB: None TEMPO: None
-201 -> NOTE: None DB: None TEMPO: None
-202 -> NOTE: None DB: None TEMPO: None
-203 -> NOTE: None DB: None TEMPO: None
-204 -> NOTE: None DB: None TEMPO: None
-205 -> NOTE: None DB: None TEMPO: None
-206 -> NOTE: None DB: None TEMPO: None
-207 -> NOTE: None DB: None TEMPO: None
-208 -> NOTE: None DB: None TEMPO: None
-209 -> NOTE: None DB: None TEMPO: None
-210 -> NOTE: None DB: None TEMPO: None
-211 -> NOTE: None DB: None TEMPO: None
-212 -> NOTE: None DB: None TEMPO: None
-213 -> NOTE: None DB: None TEMPO: None
-214 -> NOTE: None DB: None TEMPO: None
-215 -> NOTE: None DB: None TEMPO: None
-216 -> NOTE: None DB: None TEMPO: None
-217 -> NOTE: None DB: None TEMPO: None
-218 -> NOTE: None DB: None TEMPO: None
-219 -> NOTE: None DB: None TEMPO: None
-220 -> NOTE: None DB: None TEMPO: None
-221 -> NOTE: None DB: None TEMPO: None
-222 -> NOTE: None DB: None TEMPO: None
-223 -> NOTE: None DB: None TEMPO: None
-224 -> NOTE: None DB: None TEMPO: None
-225 -> NOTE: None DB: None TEMPO: None
-226 -> NOTE: None DB: None TEMPO: None
-227 -> NOTE: None DB: None TEMPO: None
-228 -> NOTE: None DB: None TEMPO: None
-229 -> NOTE: None DB: None TEMPO: None
-230 -> NOTE: None DB: None TEMPO: None
-231 -> NOTE: None DB: None TEMPO: None
-232 -> NOTE: None DB: None TEMPO: None
-233 -> NOTE: None DB: None TEMPO: None
-234 -> NOTE: None DB: None TEMPO: None
-235 -> NOTE: None DB: None TEMPO: None
-236 -> NOTE: None DB: None TEMPO: None
-237 -> NOTE: None DB: None TEMPO: None
-238 -> NOTE: None DB: None TEMPO: None
-239 -> NOTE: None DB: None TEMPO: None
-240 -> NOTE: None DB: None TEMPO: None
-241 -> NOTE: None DB: None TEMPO: None
-242 -> NOTE: None DB: None TEMPO: None
-243 -> NOTE: None DB: None TEMPO: None
-244 -> NOTE: None DB: None TEMPO: None
-245 -> NOTE: None DB: None TEMPO: None
-246 -> NOTE: None DB: None TEMPO: None
-247 -> NOTE: None DB: None TEMPO: None
-248 -> NOTE: None DB: None TEMPO: None
-249 -> NOTE: None DB: None TEMPO: None
-250 -> NOTE: None DB: None TEMPO: None
-251 -> NOTE: None DB: None TEMPO: None
-252 -> NOTE: None DB: None TEMPO: None
-253 -> NOTE: None DB: None TEMPO: None
-254 -> NOTE: None DB: None TEMPO: None
-255 -> NOTE: None DB: None TEMPO: None
-256 -> NOTE: None DB: None TEMPO: None
-257 -> NOTE: None DB: None TEMPO: None
-258 -> NOTE: None DB: None TEMPO: None
-259 -> NOTE: None DB: None TEMPO: None
-260 -> NOTE: None DB: None TEMPO: None
-261 -> NOTE: None DB: None TEMPO: None
-262 -> NOTE: None DB: None TEMPO: None
-263 -> NOTE: None DB: None TEMPO: None
-264 -> NOTE: None DB: None TEMPO: None
-265 -> NOTE: None DB: None TEMPO: None
-266 -> NOTE: None DB: None TEMPO: None
-267 -> NOTE: None DB: None TEMPO: None
-268 -> NOTE: None DB: None TEMPO: None
-269 -> NOTE: None DB: None TEMPO: None
-270 -> NOTE: None DB: None TEMPO: None
-271 -> NOTE: None DB: None TEMPO: None
-272 -> NOTE: None DB: None TEMPO: None
-273 -> NOTE: None DB: None TEMPO: None
-274 -> NOTE: None DB: None TEMPO: None
-275 -> NOTE: None DB: None TEMPO: None
-276 -> NOTE: None DB: None TEMPO: None
-277 -> NOTE: None DB: None TEMPO: None
-278 -> NOTE: None DB: None TEMPO: None
-279 -> NOTE: None DB: None TEMPO: None
-280 -> NOTE: None DB: None TEMPO: None
-281 -> NOTE: None DB: None TEMPO: None
-282 -> NOTE: None DB: None TEMPO: None
-283 -> NOTE: None DB: None TEMPO: None
-284 -> NOTE: None DB: None TEMPO: None
-285 -> NOTE: None DB: None TEMPO: None
-286 -> NOTE: None DB: None TEMPO: None
-287 -> NOTE: None DB: None TEMPO: None
-288 -> NOTE: None DB: None TEMPO: None
-289 -> NOTE: None DB: None TEMPO: None
-290 -> NOTE: None DB: None TEMPO: None
-291 -> NOTE: None DB: None TEMPO: None
-292 -> NOTE: None DB: None TEMPO: None
-293 -> NOTE: None DB: None TEMPO: None
-294 -> NOTE: None DB: None TEMPO: None
-295 -> NOTE: None DB: None TEMPO: None
-296 -> NOTE: None DB: None TEMPO: None
-297 -> NOTE: None DB: None TEMPO: None
-298 -> NOTE: None DB: None TEMPO: None
-299 -> NOTE: None DB: None TEMPO: None
-300 -> NOTE: None DB: None TEMPO: None
-301 -> NOTE: None DB: None TEMPO: None
-302 -> NOTE: None DB: None TEMPO: None
-1 -> NOTE: None DB: None TEMPO: None
-2 -> NOTE: None DB: None TEMPO: None
-3 -> NOTE: None DB: None TEMPO: None
-4 -> NOTE: None DB: None TEMPO: None
-5 -> NOTE: None DB: None TEMPO: None
-6 -> NOTE: None DB: None TEMPO: None
-7 -> NOTE: None DB: None TEMPO: None
-8 -> NOTE: None DB: None TEMPO: None
-9 -> NOTE: None DB: None TEMPO: None
-10 -> NOTE: None DB: None TEMPO: None
-11 -> NOTE: None DB: None TEMPO: None
-12 -> NOTE: None DB: None TEMPO: None
-13 -> NOTE: None DB: None TEMPO: None
-14 -> NOTE: None DB: None TEMPO: None
-15 -> NOTE: None DB: None TEMPO: None
-16 -> NOTE: None DB: None TEMPO: None
-17 -> NOTE: None DB: None TEMPO: None
-18 -> NOTE: None DB: None TEMPO: None
-19 -> NOTE: None DB: None TEMPO: None
-20 -> NOTE: None DB: None TEMPO: None
-21 -> NOTE: None DB: None TEMPO: None
-22 -> NOTE: None DB: None TEMPO: None
-23 -> NOTE: None DB: None TEMPO: None
-24 -> NOTE: None DB: None TEMPO: None
-25 -> NOTE: None DB: None TEMPO: None
-26 -> NOTE: None DB: None TEMPO: None
-27 -> NOTE: None DB: None TEMPO: None
-28 -> NOTE: None DB: None TEMPO: None
-29 -> NOTE: None DB: None TEMPO: None
-30 -> NOTE: None DB: None TEMPO: None
-31 -> NOTE: None DB: None TEMPO: None
-32 -> NOTE: None DB: None TEMPO: None
-33 -> NOTE: None DB: None TEMPO: None
-34 -> NOTE: None DB: None TEMPO: None
-35 -> NOTE: None DB: None TEMPO: None
-36 -> NOTE: None DB: None TEMPO: None
-37 -> NOTE: None DB: None TEMPO: None
-38 -> NOTE: None DB: None TEMPO: None
-39 -> NOTE: None DB: None TEMPO: None
-40 -> NOTE: None DB: None TEMPO: None
-41 -> NOTE: None DB: None TEMPO: None
-42 -> NOTE: None DB: None TEMPO: None
-43 -> NOTE: None DB: None TEMPO: None
-44 -> NOTE: None DB: None TEMPO: None
-45 -> NOTE: None DB: None TEMPO: None
-46 -> NOTE: None DB: None TEMPO: None
-47 -> NOTE: None DB: None TEMPO: None
-48 -> NOTE: None DB: None TEMPO: None
-49 -> NOTE: None DB: None TEMPO: None
-50 -> NOTE: None DB: None TEMPO: None
-51 -> NOTE: None DB: None TEMPO: None
-52 -> NOTE: None DB: None TEMPO: None
-53 -> NOTE: None DB: None TEMPO: None
-54 -> NOTE: None DB: None TEMPO: None
-55 -> NOTE: None DB: None TEMPO: None
-56 -> NOTE: None DB: None TEMPO: None
-57 -> NOTE: None DB: None TEMPO: None
-58 -> NOTE: None DB: None TEMPO: None
-59 -> NOTE: None DB: None TEMPO: None
-60 -> NOTE: None DB: None TEMPO: None
-61 -> NOTE: None DB: None TEMPO: None
-62 -> NOTE: None DB: None TEMPO: None
-63 -> NOTE: None DB: None TEMPO: None
-64 -> NOTE: None DB: None TEMPO: None
-65 -> NOTE: None DB: None TEMPO: None
-66 -> NOTE: None DB: None TEMPO: None
-67 -> NOTE: None DB: None TEMPO: None
-68 -> NOTE: None DB: None TEMPO: None
-69 -> NOTE: None DB: None TEMPO: None
-70 -> NOTE: None DB: None TEMPO: None
-71 -> NOTE: None DB: None TEMPO: None
-72 -> NOTE: None DB: None TEMPO: None
-73 -> NOTE: None DB: None TEMPO: None
-74 -> NOTE: None DB: None TEMPO: None
-75 -> NOTE: None DB: None TEMPO: None
-76 -> NOTE: None DB: None TEMPO: None
-77 -> NOTE: None DB: None TEMPO: None
-78 -> NOTE: None DB: None TEMPO: None
-79 -> NOTE: None DB: None TEMPO: None
-80 -> NOTE: None DB: None TEMPO: None
-81 -> NOTE: None DB: None TEMPO: None
-82 -> NOTE: None DB: None TEMPO: None
-83 -> NOTE: None DB: None TEMPO: None
-84 -> NOTE: None DB: None TEMPO: None
-85 -> NOTE: None DB: None TEMPO: None
-86 -> NOTE: None DB: None TEMPO: None
-87 -> NOTE: None DB: None TEMPO: None
-88 -> NOTE: None DB: None TEMPO: None
-89 -> NOTE: None DB: None TEMPO: None
-90 -> NOTE: None DB: None TEMPO: None
-91 -> NOTE: None DB: None TEMPO: None
-92 -> NOTE: None DB: None TEMPO: None
-93 -> NOTE: None DB: None TEMPO: None
-94 -> NOTE: None DB: None TEMPO: None
-95 -> NOTE: None DB: None TEMPO: None
-96 -> NOTE: None DB: None TEMPO: None
-97 -> NOTE: None DB: None TEMPO: None
-98 -> NOTE: None DB: None TEMPO: None
-99 -> NOTE: None DB: None TEMPO: None
-100 -> NOTE: None DB: None TEMPO: None
-101 -> NOTE: None DB: None TEMPO: None
-102 -> NOTE: None DB: None TEMPO: None
-103 -> NOTE: None DB: None TEMPO: None
-104 -> NOTE: None DB: None TEMPO: None
-105 -> NOTE: None DB: None TEMPO: None
-106 -> NOTE: None DB: None TEMPO: None
-107 -> NOTE: None DB: None TEMPO: None
-108 -> NOTE: None DB: None TEMPO: None
-109 -> NOTE: None DB: None TEMPO: None
-110 -> NOTE: None DB: None TEMPO: None
-111 -> NOTE: None DB: None TEMPO: None
-112 -> NOTE: None DB: None TEMPO: None
-113 -> NOTE: None DB: None TEMPO: None
-114 -> NOTE: None DB: None TEMPO: None
-115 -> NOTE: None DB: None TEMPO: None
-116 -> NOTE: None DB: None TEMPO: None
-117 -> NOTE: None DB: None TEMPO: None
-118 -> NOTE: None DB: None TEMPO: None
-119 -> NOTE: None DB: None TEMPO: None
-120 -> NOTE: None DB: None TEMPO: None
-121 -> NOTE: None DB: None TEMPO: None
-122 -> NOTE: None DB: None TEMPO: None
-123 -> NOTE: None DB: None TEMPO: None
-124 -> NOTE: None DB: None TEMPO: None
-125 -> NOTE: None DB: None TEMPO: None
-126 -> NOTE: None DB: None TEMPO: None
-127 -> NOTE: None DB: None TEMPO: None
-128 -> NOTE: None DB: None TEMPO: None
-129 -> NOTE: None DB: None TEMPO: None
-130 -> NOTE: None DB: None TEMPO: None
-131 -> NOTE: None DB: None TEMPO: None
-132 -> NOTE: None DB: None TEMPO: None
-133 -> NOTE: None DB: None TEMPO: None
-134 -> NOTE: None DB: None TEMPO: None
-135 -> NOTE: None DB: None TEMPO: None
-136 -> NOTE: None DB: None TEMPO: None
-137 -> NOTE: None DB: None TEMPO: None
-138 -> NOTE: None DB: None TEMPO: None
-139 -> NOTE: None DB: None TEMPO: None
-140 -> NOTE: None DB: None TEMPO: None
-141 -> NOTE: None DB: None TEMPO: None
-142 -> NOTE: None DB: None TEMPO: None
-143 -> NOTE: None DB: None TEMPO: None
-144 -> NOTE: None DB: None TEMPO: None
-145 -> NOTE: None DB: None TEMPO: None
-146 -> NOTE: None DB: None TEMPO: None
-147 -> NOTE: None DB: None TEMPO: None
-148 -> NOTE: None DB: None TEMPO: None
-149 -> NOTE: None DB: None TEMPO: None
-150 -> NOTE: None DB: None TEMPO: None
-151 -> NOTE: None DB: None TEMPO: None
-152 -> NOTE: None DB: None TEMPO: None
-153 -> NOTE: None DB: None TEMPO: None
-154 -> NOTE: None DB: None TEMPO: None
-155 -> NOTE: None DB: None TEMPO: None
-156 -> NOTE: None DB: None TEMPO: None
-157 -> NOTE: None DB: None TEMPO: None
-158 -> NOTE: None DB: None TEMPO: None
-159 -> NOTE: None DB: None TEMPO: None
-160 -> NOTE: None DB: None TEMPO: None
-161 -> NOTE: None DB: None TEMPO: None
-162 -> NOTE: None DB: None TEMPO: None
-163 -> NOTE: None DB: None TEMPO: None
-164 -> NOTE: None DB: None TEMPO: None
-165 -> NOTE: None DB: None TEMPO: None
-166 -> NOTE: None DB: None TEMPO: None
-167 -> NOTE: None DB: None TEMPO: None
-168 -> NOTE: None DB: None TEMPO: None
-169 -> NOTE: None DB: None TEMPO: None
-170 -> NOTE: None DB: None TEMPO: None
-171 -> NOTE: None DB: None TEMPO: None
-172 -> NOTE: None DB: None TEMPO: None
-173 -> NOTE: None DB: None TEMPO: None
-174 -> NOTE: None DB: None TEMPO: None
-175 -> NOTE: None DB: None TEMPO: None
-176 -> NOTE: None DB: None TEMPO: None
-177 -> NOTE: None DB: None TEMPO: None
-178 -> NOTE: None DB: None TEMPO: None
-179 -> NOTE: None DB: None TEMPO: None
-180 -> NOTE: None DB: None TEMPO: None
-181 -> NOTE: None DB: None TEMPO: None
-182 -> NOTE: None DB: None TEMPO: None
-183 -> NOTE: None DB: None TEMPO: None
-184 -> NOTE: None DB: None TEMPO: None
-185 -> NOTE: None DB: None TEMPO: None
-186 -> NOTE: None DB: None TEMPO: None
-187 -> NOTE: None DB: None TEMPO: None
-188 -> NOTE: None DB: None TEMPO: None
-189 -> NOTE: None DB: None TEMPO: None
-190 -> NOTE: None DB: None TEMPO: None
-191 -> NOTE: None DB: None TEMPO: None
-192 -> NOTE: None DB: None TEMPO: None
-193 -> NOTE: None DB: None TEMPO: None
-194 -> NOTE: None DB: None TEMPO: None
-195 -> NOTE: None DB: None TEMPO: None
-196 -> NOTE: None DB: None TEMPO: None
-197 -> NOTE: None DB: None TEMPO: None
-198 -> NOTE: None DB: None TEMPO: None
-199 -> NOTE: None DB: None TEMPO: None
-200 -> NOTE: None DB: None TEMPO: None
-201 -> NOTE: None DB: None TEMPO: None
-202 -> NOTE: None DB: None TEMPO: None
-203 -> NOTE: None DB: None TEMPO: None
-204 -> NOTE: None DB: None TEMPO: None
-205 -> NOTE: None DB: None TEMPO: None
-206 -> NOTE: None DB: None TEMPO: None
-207 -> NOTE: None DB: None TEMPO: None
-208 -> NOTE: None DB: None TEMPO: None
-209 -> NOTE: None DB: None TEMPO: None
-210 -> NOTE: None DB: None TEMPO: None
-211 -> NOTE: None DB: None TEMPO: None
-212 -> NOTE: None DB: None TEMPO: None
-213 -> NOTE: None DB: None TEMPO: None
-214 -> NOTE: None DB: None TEMPO: None
-215 -> NOTE: None DB: None TEMPO: None
-216 -> NOTE: None DB: None TEMPO: None
-217 -> NOTE: None DB: None TEMPO: None
-218 -> NOTE: None DB: None TEMPO: None
-219 -> NOTE: None DB: None TEMPO: None
-220 -> NOTE: None DB: None TEMPO: None
-221 -> NOTE: None DB: None TEMPO: None
-222 -> NOTE: None DB: None TEMPO: None
-223 -> NOTE: None DB: None TEMPO: None
-224 -> NOTE: None DB: None TEMPO: None
-225 -> NOTE: None DB: None TEMPO: None
-226 -> NOTE: None DB: None TEMPO: None
-227 -> NOTE: None DB: None TEMPO: None
-228 -> NOTE: None DB: None TEMPO: None
-229 -> NOTE: None DB: None TEMPO: None
-230 -> NOTE: None DB: None TEMPO: None
-231 -> NOTE: None DB: None TEMPO: None
-232 -> NOTE: None DB: None TEMPO: None
-233 -> NOTE: None DB: None TEMPO: None
-234 -> NOTE: None DB: None TEMPO: None
-235 -> NOTE: None DB: None TEMPO: None
-236 -> NOTE: None DB: None TEMPO: None
-237 -> NOTE: None DB: None TEMPO: None
-238 -> NOTE: None DB: None TEMPO: None
-239 -> NOTE: None DB: None TEMPO: None
-240 -> NOTE: None DB: None TEMPO: None
-241 -> NOTE: None DB: None TEMPO: None
-242 -> NOTE: None DB: None TEMPO: None
-243 -> NOTE: None DB: None TEMPO: None
-244 -> NOTE: None DB: None TEMPO: None
-245 -> NOTE: None DB: None TEMPO: None
-246 -> NOTE: None DB: None TEMPO: None
-247 -> NOTE: None DB: None TEMPO: None
-248 -> NOTE: None DB: None TEMPO: None
-249 -> NOTE: None DB: None TEMPO: None
-250 -> NOTE: None DB: None TEMPO: None
-251 -> NOTE: None DB: None TEMPO: None
-252 -> NOTE: None DB: None TEMPO: None
-253 -> NOTE: None DB: None TEMPO: None
-254 -> NOTE: None DB: None TEMPO: None
-255 -> NOTE: None DB: None TEMPO: None
-256 -> NOTE: None DB: None TEMPO: None
-257 -> NOTE: None DB: None TEMPO: None
-258 -> NOTE: None DB: None TEMPO: None
-259 -> NOTE: None DB: None TEMPO: None
-260 -> NOTE: None DB: None TEMPO: None
-261 -> NOTE: None DB: None TEMPO: None
-262 -> NOTE: None DB: None TEMPO: None
-263 -> NOTE: None DB: None TEMPO: None
-264 -> NOTE: None DB: None TEMPO: None
-265 -> NOTE: None DB: None TEMPO: None
-266 -> NOTE: None DB: None TEMPO: None
-267 -> NOTE: None DB: None TEMPO: None
-268 -> NOTE: None DB: None TEMPO: None
-269 -> NOTE: None DB: None TEMPO: None
-270 -> NOTE: None DB: None TEMPO: None
-271 -> NOTE: None DB: None TEMPO: None
-272 -> NOTE: None DB: None TEMPO: None
-273 -> NOTE: None DB: None TEMPO: None
-274 -> NOTE: None DB: None TEMPO: None
-275 -> NOTE: None DB: None TEMPO: None
-276 -> NOTE: None DB: None TEMPO: None
-277 -> NOTE: None DB: None TEMPO: None
-278 -> NOTE: None DB: None TEMPO: None
-279 -> NOTE: None DB: None TEMPO: None
-280 -> NOTE: None DB: None TEMPO: None
-281 -> NOTE: None DB: None TEMPO: None
-282 -> NOTE: None DB: None TEMPO: None
-283 -> NOTE: None DB: None TEMPO: None
-284 -> NOTE: None DB: None TEMPO: None
-285 -> NOTE: None DB: None TEMPO: None
-286 -> NOTE: None DB: None TEMPO: None
-287 -> NOTE: None DB: None TEMPO: None
-288 -> NOTE: None DB: None TEMPO: None
-289 -> NOTE: None DB: None TEMPO: None
-290 -> NOTE: None DB: None TEMPO: None
-291 -> NOTE: None DB: None TEMPO: None
-292 -> NOTE: None DB: None TEMPO: None
-293 -> NOTE: None DB: None TEMPO: None
-294 -> NOTE: None DB: None TEMPO: None
-295 -> NOTE: None DB: None TEMPO: None
-296 -> NOTE: None DB: None TEMPO: None
-297 -> NOTE: None DB: None TEMPO: None
-298 -> NOTE: None DB: None TEMPO: None
-299 -> NOTE: None DB: None TEMPO: None
-300 -> NOTE: None DB: None TEMPO: None
-301 -> NOTE: None DB: None TEMPO: None
-302 -> NOTE: None DB: None TEMPO: None
-303 -> NOTE: None DB: None TEMPO: None
-304 -> NOTE: None DB: None TEMPO: None
-305 -> NOTE: None DB: None TEMPO: None
-306 -> NOTE: None DB: None TEMPO: None
-307 -> NOTE: None DB: None TEMPO: None
-308 -> NOTE: None DB: None TEMPO: None
-309 -> NOTE: None DB: None TEMPO: None
-310 -> NOTE: None DB: None TEMPO: None
-311 -> NOTE: None DB: None TEMPO: None
-312 -> NOTE: None DB: None TEMPO: None
-313 -> NOTE: None DB: None TEMPO: None
-314 -> NOTE: None DB: None TEMPO: None
-315 -> NOTE: None DB: None TEMPO: None
-316 -> NOTE: None DB: None TEMPO: None
-317 -> NOTE: None DB: None TEMPO: None
-318 -> NOTE: None DB: None TEMPO: None
-319 -> NOTE: None DB: None TEMPO: None
-320 -> NOTE: None DB: None TEMPO: None
-321 -> NOTE: None DB: None TEMPO: None
-322 -> NOTE: None DB: None TEMPO: None
-323 -> NOTE: None DB: None TEMPO: None
-324 -> NOTE: None DB: None TEMPO: None
-325 -> NOTE: None DB: None TEMPO: None
-326 -> NOTE: None DB: None TEMPO: None
-327 -> NOTE: None DB: None TEMPO: None
-328 -> NOTE: None DB: None TEMPO: None
-329 -> NOTE: None DB: None TEMPO: None
-330 -> NOTE: None DB: None TEMPO: None
-331 -> NOTE: None DB: None TEMPO: None
-332 -> NOTE: None DB: None TEMPO: None
-333 -> NOTE: None DB: None TEMPO: None
-334 -> NOTE: None DB: None TEMPO: None
-335 -> NOTE: None DB: None TEMPO: None
-336 -> NOTE: None DB: None TEMPO: None
-337 -> NOTE: None DB: None TEMPO: None
-338 -> NOTE: None DB: None TEMPO: None
-339 -> NOTE: None DB: None TEMPO: None
-340 -> NOTE: None DB: None TEMPO: None
-341 -> NOTE: None DB: None TEMPO: None
-342 -> NOTE: None DB: None TEMPO: None
-343 -> NOTE: None DB: None TEMPO: None
-344 -> NOTE: None DB: None TEMPO: None
-345 -> NOTE: None DB: None TEMPO: None
-346 -> NOTE: None DB: None TEMPO: None
-347 -> NOTE: None DB: None TEMPO: None
-348 -> NOTE: None DB: None TEMPO: None
-349 -> NOTE: None DB: None TEMPO: None
-350 -> NOTE: None DB: None TEMPO: None
-351 -> NOTE: None DB: None TEMPO: None
-352 -> NOTE: None DB: None TEMPO: None
-353 -> NOTE: None DB: None TEMPO: None
-354 -> NOTE: None DB: None TEMPO: None
-355 -> NOTE: None DB: None TEMPO: None
-356 -> NOTE: None DB: None TEMPO: None
-357 -> NOTE: None DB: None TEMPO: None
-358 -> NOTE: None DB: None TEMPO: None
-359 -> NOTE: None DB: None TEMPO: None
-360 -> NOTE: None DB: None TEMPO: None
-361 -> NOTE: None DB: None TEMPO: None
-362 -> NOTE: None DB: None TEMPO: None
-363 -> NOTE: None DB: None TEMPO: None
-364 -> NOTE: None DB: None TEMPO: None
-365 -> NOTE: None DB: None TEMPO: None
-366 -> NOTE: None DB: None TEMPO: None
-367 -> NOTE: None DB: None TEMPO: None
-368 -> NOTE: None DB: None TEMPO: None
-369 -> NOTE: None DB: None TEMPO: None
-370 -> NOTE: None DB: None TEMPO: None
-371 -> NOTE: None DB: None TEMPO: None
-372 -> NOTE: None DB: None TEMPO: None
-373 -> NOTE: None DB: None TEMPO: None
-374 -> NOTE: None DB: None TEMPO: None
-375 -> NOTE: None DB: None TEMPO: None
-376 -> NOTE: None DB: None TEMPO: None
-377 -> NOTE: None DB: None TEMPO: None
-378 -> NOTE: None DB: None TEMPO: None
-379 -> NOTE: None DB: None TEMPO: None
-380 -> NOTE: None DB: None TEMPO: None
-381 -> NOTE: None DB: None TEMPO: None
-382 -> NOTE: None DB: None TEMPO: None
-383 -> NOTE: None DB: None TEMPO: None
-384 -> NOTE: None DB: None TEMPO: None
-385 -> NOTE: None DB: None TEMPO: None
-386 -> NOTE: None DB: None TEMPO: None
-387 -> NOTE: None DB: None TEMPO: None
-388 -> NOTE: None DB: None TEMPO: None
-389 -> NOTE: None DB: None TEMPO: None
-390 -> NOTE: None DB: None TEMPO: None
-391 -> NOTE: None DB: None TEMPO: None
-392 -> NOTE: None DB: None TEMPO: None
-393 -> NOTE: None DB: None TEMPO: None
-394 -> NOTE: None DB: None TEMPO: None
-395 -> NOTE: None DB: None TEMPO: None
-396 -> NOTE: None DB: None TEMPO: None
-397 -> NOTE: None DB: None TEMPO: None
-398 -> NOTE: None DB: None TEMPO: None
-399 -> NOTE: None DB: None TEMPO: None
-400 -> NOTE: None DB: None TEMPO: None
-401 -> NOTE: None DB: None TEMPO: None
-402 -> NOTE: None DB: None TEMPO: None
-403 -> NOTE: None DB: None TEMPO: None
-404 -> NOTE: None DB: None TEMPO: None
-405 -> NOTE: None DB: None TEMPO: None
-406 -> NOTE: None DB: None TEMPO: None
-407 -> NOTE: None DB: None TEMPO: None
-408 -> NOTE: None DB: None TEMPO: None
-409 -> NOTE: None DB: None TEMPO: None
-410 -> NOTE: None DB: None TEMPO: None
-411 -> NOTE: None DB: None TEMPO: None
-412 -> NOTE: None DB: None TEMPO: None
-413 -> NOTE: None DB: None TEMPO: None
-414 -> NOTE: None DB: None TEMPO: None
-415 -> NOTE: None DB: None TEMPO: None
-416 -> NOTE: None DB: None TEMPO: None
-417 -> NOTE: None DB: None TEMPO: None
-418 -> NOTE: None DB: None TEMPO: None
-419 -> NOTE: None DB: None TEMPO: None
-420 -> NOTE: None DB: None TEMPO: None
-421 -> NOTE: None DB: None TEMPO: None
-422 -> NOTE: None DB: None TEMPO: None
-423 -> NOTE: None DB: None TEMPO: None
-424 -> NOTE: None DB: None TEMPO: None
-425 -> NOTE: None DB: None TEMPO: None
-426 -> NOTE: None DB: None TEMPO: None
-427 -> NOTE: None DB: None TEMPO: None
-428 -> NOTE: None DB: None TEMPO: None
-429 -> NOTE: None DB: None TEMPO: None
-430 -> NOTE: None DB: None TEMPO: None
-431 -> NOTE: None DB: None TEMPO: None
-432 -> NOTE: None DB: None TEMPO: None
-433 -> NOTE: None DB: None TEMPO: None
-434 -> NOTE: None DB: None TEMPO: None
-435 -> NOTE: None DB: None TEMPO: None
-436 -> NOTE: None DB: None TEMPO: None
-437 -> NOTE: None DB: None TEMPO: None
-438 -> NOTE: None DB: None TEMPO: None
-439 -> NOTE: None DB: None TEMPO: None
+F.1 -> NOTE: 0 DB: 31 TEMPO: 143
+F.2 -> NOTE: 0 DB: 33 TEMPO: 117
+F.3 -> NOTE: 0 DB: 26 TEMPO: 143
+F.4 -> NOTE: 0 DB: 26 TEMPO: 143
+F.5 -> NOTE: 2 DB: 26 TEMPO: 92
+F.6 -> NOTE: 0 DB: 35 TEMPO: 123
+F.7 -> NOTE: 6 DB: 34 TEMPO: 135
+F.8 -> NOTE: 0 DB: 33 TEMPO: 117
+F.9 -> NOTE:  DB: None TEMPO: None
+F.10 -> NOTE: 1 DB: 37 TEMPO: 117
+F.11 -> NOTE: 8 DB: 34 TEMPO: 103
+F.12 -> NOTE: 0 DB: 27 TEMPO: 151
+F.13 -> NOTE: 0 DB: 31 TEMPO: 112
+F.14 -> NOTE: 6 DB: 34 TEMPO: 143
+F.15 -> NOTE: 7 DB: 31 TEMPO: 103
+F.16 -> NOTE: 7 DB: 33 TEMPO: 107
+F.17 -> NOTE: 6 DB: 34 TEMPO: 99
+F.18 -> NOTE: 0 DB: 28 TEMPO: 143
+F.19 -> NOTE: 7 DB: 19 TEMPO: 112
+F.20 -> NOTE: 1 DB: 24 TEMPO: 123
+F.21 -> NOTE: 0 DB: 27 TEMPO: 112
+F.22 -> NOTE: 8 DB: 21 TEMPO: 117
+F.23 -> NOTE: 4 DB: 19 TEMPO: 99
+F.24 -> NOTE: 9 DB: 16 TEMPO: 117
+F.25 -> NOTE: 9 DB: 14 TEMPO: 123
+F.26 -> NOTE: 10 DB: 17 TEMPO: 172
+F.27 -> NOTE: 10 DB: 18 TEMPO: 99
+F.28 -> NOTE: 10 DB: 17 TEMPO: 103
+F.29 -> NOTE: 10 DB: 19 TEMPO: 112
+F.30 -> NOTE: 10 DB: 16 TEMPO: 117
+F.31 -> NOTE: 2 DB: 19 TEMPO: 112
+F.32 -> NOTE: 2 DB: 20 TEMPO: 123
+F.33 -> NOTE: 0 DB: 21 TEMPO: 143
+F.34 -> NOTE: 0 DB: 16 TEMPO: 129
+F.35 -> NOTE: 3 DB: 19 TEMPO: 135
+F.36 -> NOTE: 2 DB: 19 TEMPO: 135
+F.37 -> NOTE: 2 DB: 16 TEMPO: 117
+F.38 -> NOTE: 2 DB: 23 TEMPO: 143
+F.39 -> NOTE: 2 DB: 16 TEMPO: 151
+F.40 -> NOTE: 0 DB: 20 TEMPO: 151
+F.41 -> NOTE: 0 DB: 17 TEMPO: 117
+F.42 -> NOTE: 0 DB: 17 TEMPO: 95
+F.43 -> NOTE: 7 DB: 17 TEMPO: 103
+F.44 -> NOTE: 5 DB: 20 TEMPO: 103
+F.45 -> NOTE: 7 DB: 17 TEMPO: 117
+F.46 -> NOTE: 10 DB: 17 TEMPO: 161
+F.47 -> NOTE: 4 DB: 18 TEMPO: 151
+F.48 -> NOTE: 10 DB: 17 TEMPO: 161
+F.49 -> NOTE: 5 DB: 19 TEMPO: 89
+F.50 -> NOTE: 7 DB: 17 TEMPO: 129
+F.51 -> NOTE: 7 DB: 18 TEMPO: 107
+F.52 -> NOTE: 10 DB: 18 TEMPO: 129
+F.53 -> NOTE: 6 DB: 17 TEMPO: 143
+F.54 -> NOTE: 7 DB: 15 TEMPO: 135
+F.55 -> NOTE: 5 DB: 20 TEMPO: 135
+F.56 -> NOTE: 7 DB: 22 TEMPO: 123
+F.57 -> NOTE: 7 DB: 18 TEMPO: 184
+F.58 -> NOTE: 7 DB: 21 TEMPO: 123
+F.59 -> NOTE: 6 DB: 21 TEMPO: 123
+F.60 -> NOTE: 6 DB: 28 TEMPO: 143
+F.61 -> NOTE:  DB: 27 TEMPO: 143
+F.62 -> NOTE: 7 DB: 30 TEMPO: 151
+F.63 -> NOTE: 7 DB: 30 TEMPO: 151
+F.64 -> NOTE: 7 DB: 30 TEMPO: 135
+F.65 -> NOTE: 7 DB: 28 TEMPO: 135
+F.66 -> NOTE: 7 DB: 28 TEMPO: 135
+F.67 -> NOTE: 1 DB: 26 TEMPO: 112
+F.68 -> NOTE: 1 DB: 26 TEMPO: 112
+F.69 -> NOTE: 2 DB: 33 TEMPO: 99
+F.70 -> NOTE: 2 DB: 33 TEMPO: 172
+F.71 -> NOTE: 2 DB: 34 TEMPO: 117
+F.72 -> NOTE: 2 DB: 34 TEMPO: 117
+F.73 -> NOTE: 9 DB: 29 TEMPO: 151
+F.74 -> NOTE: 9 DB: 28 TEMPO: 151
+F.75 -> NOTE: 7 DB: 29 TEMPO: 112
+F.76 -> NOTE: 7 DB: 29 TEMPO: 112
+F.77 -> NOTE: 7 DB: 30 TEMPO: 151
+F.78 -> NOTE: 4 DB: 31 TEMPO: 151
+F.79 -> NOTE: 3 DB: 37 TEMPO: 143
+F.80 -> NOTE: 3 DB: 37 TEMPO: 143
+F.81 -> NOTE: 9 DB: 24 TEMPO: 112
+F.82 -> NOTE: 9 DB: 23 TEMPO: 107
+F.83 -> NOTE: 10 DB: 23 TEMPO: 123
+F.84 -> NOTE: 10 DB: 23 TEMPO: 123
+F.85 -> NOTE: 2 DB: 31 TEMPO: 78
+F.86 -> NOTE: 2 DB: 30 TEMPO: 75
+F.87 -> NOTE: 2 DB: 31 TEMPO: 92
+F.88 -> NOTE: 2 DB: 31 TEMPO: 172
+F.89 -> NOTE: 1 DB: 28 TEMPO: 103
+F.90 -> NOTE: 2 DB: 26 TEMPO: 123
+F.91 -> NOTE: 2 DB: 26 TEMPO: 123
+F.92 -> NOTE: 1 DB: 24 TEMPO: 129
+F.93 -> NOTE:  DB: 23 TEMPO: 135
+F.94 -> NOTE:  DB: 38 TEMPO: 123
+F.95 -> NOTE:  DB: 37 TEMPO: 123
+F.96 -> NOTE:  DB: 34 TEMPO: 129
+F.97 -> NOTE:  DB: 34 TEMPO: 129
+F.98 -> NOTE:  DB: 41 TEMPO: 135
+F.99 -> NOTE:  DB: 40 TEMPO: 135
+F.100 -> NOTE:  DB: 34 TEMPO: 83
+F.101 -> NOTE:  DB: 34 TEMPO: 78
+F.102 -> NOTE:  DB: 37 TEMPO: 112
+F.103 -> NOTE:  DB: 37 TEMPO: 107
+F.104 -> NOTE:  DB: 39 TEMPO: 135
+F.105 -> NOTE:  DB: 38 TEMPO: 135
+F.106 -> NOTE:  DB: 26 TEMPO: 143
+F.107 -> NOTE:  DB: 25 TEMPO: 103
+F.108 -> NOTE:  DB: 25 TEMPO: 123
+F.109 -> NOTE:  DB: 25 TEMPO: 123
+F.110 -> NOTE:  DB: 39 TEMPO: 184
+F.111 -> NOTE:  DB: 39 TEMPO: 198
+F.112 -> NOTE:  DB: 35 TEMPO: 172
+F.113 -> NOTE:  DB: 35 TEMPO: 172
+F.114 -> NOTE:  DB: 27 TEMPO: 135
+F.115 -> NOTE:  DB: 26 TEMPO: 135
+F.116 -> NOTE:  DB: 27 TEMPO: 117
+F.117 -> NOTE:  DB: 27 TEMPO: 135
+F.118 -> NOTE:  DB: 25 TEMPO: 143
+F.119 -> NOTE:  DB: 25 TEMPO: 117
+F.120 -> NOTE:  DB: 33 TEMPO: 103
+F.121 -> NOTE:  DB: 33 TEMPO: 71
+F.122 -> NOTE:  DB: 30 TEMPO: 135
+F.123 -> NOTE:  DB: 29 TEMPO: 135
+F.124 -> NOTE:  DB: 29 TEMPO: 103
+F.125 -> NOTE:  DB: 27 TEMPO: 123
+F.126 -> NOTE:  DB: 27 TEMPO: 129
+F.127 -> NOTE:  DB: 23 TEMPO: 161
+F.128 -> NOTE:  DB: 23 TEMPO: 161
+F.129 -> NOTE:  DB: 26 TEMPO: 161
+F.130 -> NOTE:  DB: 26 TEMPO: 161
+F.131 -> NOTE:  DB: 30 TEMPO: 112
+F.132 -> NOTE:  DB: 30 TEMPO: 112
+F.133 -> NOTE:  DB: 28 TEMPO: 172
+F.134 -> NOTE:  DB: 28 TEMPO: 172
+F.135 -> NOTE:  DB: 32 TEMPO: 117
+F.136 -> NOTE:  DB: 32 TEMPO: 117
+F.137 -> NOTE:  DB: 24 TEMPO: 135
+F.138 -> NOTE:  DB: 24 TEMPO: 103
+F.139 -> NOTE:  DB: 30 TEMPO: 135
+F.140 -> NOTE:  DB: 30 TEMPO: 135
+F.141 -> NOTE:  DB: 36 TEMPO: 143
+F.142 -> NOTE:  DB: 36 TEMPO: 143
+F.143 -> NOTE:  DB: 42 TEMPO: 117
+F.144 -> NOTE:  DB: 42 TEMPO: 117
+F.145 -> NOTE:  DB: 32 TEMPO: 151
+F.146 -> NOTE:  DB: 32 TEMPO: 151
+F.147 -> NOTE:  DB: 43 TEMPO: 151
+F.148 -> NOTE:  DB: 43 TEMPO: 184
+F.149 -> NOTE:  DB: 33 TEMPO: 123
+F.150 -> NOTE:  DB: 32 TEMPO: 172
+F.151 -> NOTE:  DB: 36 TEMPO: 89
+F.152 -> NOTE:  DB: 36 TEMPO: 161
+F.153 -> NOTE:  DB: 26 TEMPO: 107
+F.154 -> NOTE:  DB: 25 TEMPO: 107
+F.155 -> NOTE:  DB: 24 TEMPO: 143
+F.156 -> NOTE: 3 DB: 24 TEMPO: 143
+F.157 -> NOTE: 3 DB: 34 TEMPO: 151
+F.158 -> NOTE: 0 DB: 34 TEMPO: 151
+F.159 -> NOTE: 0 DB: 32 TEMPO: 151
+F.160 -> NOTE: 0 DB: 32 TEMPO: 151
+F.161 -> NOTE: 0 DB: 34 TEMPO: 143
+F.162 -> NOTE: 0 DB: 34 TEMPO: 143
+F.163 -> NOTE: 0 DB: 30 TEMPO: 123
+F.164 -> NOTE: 0 DB: 30 TEMPO: 143
+F.165 -> NOTE: 2 DB: 33 TEMPO: 172
+F.166 -> NOTE: 2 DB: 33 TEMPO: 184
+F.167 -> NOTE: 0 DB: 40 TEMPO: 143
+F.168 -> NOTE: 0 DB: 41 TEMPO: 123
+F.169 -> NOTE: 0 DB: 35 TEMPO: 215
+F.170 -> NOTE: 0 DB: 35 TEMPO: 215
+F.171 -> NOTE: 0 DB: 32 TEMPO: 92
+F.172 -> NOTE: 0 DB: 32 TEMPO: 117
+F.173 -> NOTE: 2 DB: 36 TEMPO: 123
+F.174 -> NOTE: 2 DB: 36 TEMPO: 123
+F.175 -> NOTE: 3 DB: 31 TEMPO: 143
+F.176 -> NOTE: 3 DB: 31 TEMPO: 112
+F.177 -> NOTE: 3 DB: 44 TEMPO: 129
+F.178 -> NOTE: 3 DB: 44 TEMPO: 129
+F.179 -> NOTE: 4 DB: 42 TEMPO: 143
+F.180 -> NOTE: 4 DB: 42 TEMPO: 143
+F.181 -> NOTE: 3 DB: 44 TEMPO: 135
+F.182 -> NOTE: 3 DB: 43 TEMPO: 135
+F.183 -> NOTE: 4 DB: 45 TEMPO: 135
+F.184 -> NOTE: 4 DB: 44 TEMPO: 151
+F.185 -> NOTE: 2 DB: 37 TEMPO: 135
+F.186 -> NOTE:  DB: 37 TEMPO: 135
+F.187 -> NOTE:  DB: 40 TEMPO: 172
+F.188 -> NOTE:  DB: 40 TEMPO: 172
+F.189 -> NOTE:  DB: 40 TEMPO: 143
+F.190 -> NOTE:  DB: 40 TEMPO: 143
+F.191 -> NOTE:  DB: 40 TEMPO: 184
+F.192 -> NOTE:  DB: 40 TEMPO: 117
+F.193 -> NOTE:  DB: 38 TEMPO: 117
+F.194 -> NOTE:  DB: 38 TEMPO: 117
+F.195 -> NOTE:  DB: 44 TEMPO: 143
+F.196 -> NOTE:  DB: 43 TEMPO: 143
+F.197 -> NOTE:  DB: 26 TEMPO: 123
+F.198 -> NOTE:  DB: 26 TEMPO: 123
+F.199 -> NOTE:  DB: 26 TEMPO: 117
+F.200 -> NOTE:  DB: 26 TEMPO: 117
+F.201 -> NOTE:  DB: 21 TEMPO: 117
+F.202 -> NOTE:  DB: 20 TEMPO: 123
+F.203 -> NOTE:  DB: 25 TEMPO: 129
+F.204 -> NOTE:  DB: 24 TEMPO: 129
+F.205 -> NOTE:  DB: 35 TEMPO: 107
+F.206 -> NOTE:  DB: 34 TEMPO: 107
+F.207 -> NOTE:  DB: 28 TEMPO: 161
+F.208 -> NOTE:  DB: 28 TEMPO: 161
+F.209 -> NOTE:  DB: 33 TEMPO: 135
+F.210 -> NOTE:  DB: 33 TEMPO: 112
+F.211 -> NOTE:  DB: 31 TEMPO: 95
+F.212 -> NOTE:  DB: 31 TEMPO: 112
+F.213 -> NOTE:  DB: 33 TEMPO: 143
+F.214 -> NOTE:  DB: 33 TEMPO: 184
+F.215 -> NOTE:  DB: 37 TEMPO: 129
+F.216 -> NOTE:  DB: 36 TEMPO: 129
+F.217 -> NOTE:  DB: 42 TEMPO: 161
+F.218 -> NOTE:  DB: 41 TEMPO: 143
+F.219 -> NOTE:  DB: 45 TEMPO: 151
+F.220 -> NOTE:  DB: 45 TEMPO: 151
+F.221 -> NOTE:  DB: 36 TEMPO: 99
+F.222 -> NOTE:  DB: 36 TEMPO: 99
+F.223 -> NOTE:  DB: 28 TEMPO: 129
+F.224 -> NOTE:  DB: 28 TEMPO: 129
+F.225 -> NOTE:  DB: 23 TEMPO: 107
+F.226 -> NOTE:  DB: 24 TEMPO: 129
+F.227 -> NOTE:  DB: 36 TEMPO: 129
+F.228 -> NOTE:  DB: 36 TEMPO: 92
+F.229 -> NOTE:  DB: 37 TEMPO: 123
+F.230 -> NOTE:  DB: 36 TEMPO: 107
+F.231 -> NOTE:  DB: 22 TEMPO: 123
+F.232 -> NOTE:  DB: 21 TEMPO: 123
+F.233 -> NOTE:  DB: 25 TEMPO: 143
+F.234 -> NOTE:  DB: 25 TEMPO: 143
+F.235 -> NOTE:  DB: 27 TEMPO: 135
+F.236 -> NOTE:  DB: 27 TEMPO: 135
+F.237 -> NOTE:  DB: 35 TEMPO: 129
+F.238 -> NOTE:  DB: 35 TEMPO: 129
+F.239 -> NOTE:  DB: 30 TEMPO: 107
+F.240 -> NOTE:  DB: 30 TEMPO: 107
+F.241 -> NOTE:  DB: 31 TEMPO: 135
+F.242 -> NOTE:  DB: 31 TEMPO: 135
+F.243 -> NOTE:  DB: 35 TEMPO: 143
+F.244 -> NOTE:  DB: 35 TEMPO: 143
+F.245 -> NOTE:  DB: 36 TEMPO: 117
+F.246 -> NOTE:  DB: 36 TEMPO: 117
+F.247 -> NOTE:  DB: 34 TEMPO: 123
+F.248 -> NOTE:  DB: 34 TEMPO: 123
+F.249 -> NOTE:  DB: 41 TEMPO: 129
+F.250 -> NOTE:  DB: 41 TEMPO: 123
+F.251 -> NOTE:  DB: 35 TEMPO: 143
+F.252 -> NOTE:  DB: 35 TEMPO: 151
+F.253 -> NOTE:  DB: 42 TEMPO: 123
+F.254 -> NOTE:  DB: 41 TEMPO: 123
+F.255 -> NOTE:  DB: 31 TEMPO: 135
+F.256 -> NOTE:  DB: 31 TEMPO: 123
+F.257 -> NOTE:  DB: 34 TEMPO: 143
+F.258 -> NOTE:  DB: 34 TEMPO: 129
+F.259 -> NOTE:  DB: 25 TEMPO: 123
+F.260 -> NOTE:  DB: 25 TEMPO: 117
+F.261 -> NOTE:  DB: 30 TEMPO: 89
+F.262 -> NOTE:  DB: 29 TEMPO: 89
+F.263 -> NOTE:  DB: 37 TEMPO: 117
+F.264 -> NOTE:  DB: 37 TEMPO: 123
+F.265 -> NOTE:  DB: 38 TEMPO: 99
+F.266 -> NOTE:  DB: 38 TEMPO: 99
+F.267 -> NOTE:  DB: 28 TEMPO: 112
+F.268 -> NOTE:  DB: 28 TEMPO: 112
+F.269 -> NOTE:  DB: 29 TEMPO: 161
+F.270 -> NOTE:  DB: 29 TEMPO: 123
+F.271 -> NOTE:  DB: 31 TEMPO: 103
+F.272 -> NOTE:  DB: 31 TEMPO: 103
+F.273 -> NOTE:  DB: 33 TEMPO: 172
+F.274 -> NOTE:  DB: 32 TEMPO: 172
+F.275 -> NOTE:  DB: 32 TEMPO: 129
+F.276 -> NOTE:  DB: 32 TEMPO: 123
+F.277 -> NOTE:  DB: 31 TEMPO: 117
+F.278 -> NOTE:  DB: 31 TEMPO: 112
+F.279 -> NOTE:  DB: 38 TEMPO: 103
+F.280 -> NOTE:  DB: 38 TEMPO: 103
+F.281 -> NOTE:  DB: 34 TEMPO: 123
+F.282 -> NOTE:  DB: 34 TEMPO: 123
+F.283 -> NOTE:  DB: 46 TEMPO: 172
+F.284 -> NOTE:  DB: 46 TEMPO: 151
+F.285 -> NOTE:  DB: 39 TEMPO: 135
+F.286 -> NOTE:  DB: 39 TEMPO: 172
+F.287 -> NOTE:  DB: 41 TEMPO: 151
+F.288 -> NOTE:  DB: 42 TEMPO: 143
+F.289 -> NOTE:  DB: 39 TEMPO: 135
+F.290 -> NOTE:  DB: 39 TEMPO: 129
+F.291 -> NOTE:  DB: 43 TEMPO: 161
+F.292 -> NOTE:  DB: 42 TEMPO: 172
+F.293 -> NOTE:  DB: 40 TEMPO: 161
+F.294 -> NOTE:  DB: 40 TEMPO: 161
+F.295 -> NOTE:  DB: 28 TEMPO: 129
+F.296 -> NOTE:  DB: 28 TEMPO: 107
+F.297 -> NOTE:  DB: 31 TEMPO: 143
+F.298 -> NOTE:  DB: 31 TEMPO: 112
+F.299 -> NOTE:  DB: 31 TEMPO: 135
+F.300 -> NOTE:  DB: 31 TEMPO: 135
+F.301 -> NOTE:  DB: 38 TEMPO: 129
+F.302 -> NOTE:  DB: 38 TEMPO: 129
+H.1 -> NOTE:  DB: 23 TEMPO: 123
+H.2 -> NOTE:  DB: 24 TEMPO: 117
+H.3 -> NOTE:  DB: 26 TEMPO: 103
+H.4 -> NOTE:  DB: 23 TEMPO: 112
+H.5 -> NOTE:  DB: 24 TEMPO: 112
+H.6 -> NOTE:  DB: 21 TEMPO: 129
+H.7 -> NOTE:  DB: 19 TEMPO: 151
+H.8 -> NOTE:  DB: 30 TEMPO: 95
+H.9 -> NOTE:  DB: 28 TEMPO: 143
+H.10 -> NOTE:  DB: 35 TEMPO: 99
+H.11 -> NOTE:  DB: 30 TEMPO: 123
+H.12 -> NOTE:  DB: 39 TEMPO: 80
+H.13 -> NOTE:  DB: 38 TEMPO: 117
+H.14 -> NOTE:  DB: 18 TEMPO: 129
+H.15 -> NOTE:  DB: 17 TEMPO: 135
+H.16 -> NOTE:  DB: 31 TEMPO: 129
+H.17 -> NOTE:  DB: 24 TEMPO: 161
+H.18 -> NOTE:  DB: 22 TEMPO: 99
+H.19 -> NOTE:  DB: 21 TEMPO: 103
+H.20 -> NOTE:  DB: 26 TEMPO: 135
+H.21 -> NOTE:  DB: 28 TEMPO: 135
+H.22 -> NOTE:  DB: 26 TEMPO: 112
+H.23 -> NOTE:  DB: 19 TEMPO: 112
+H.24 -> NOTE:  DB: 22 TEMPO: 103
+H.25 -> NOTE:  DB: 17 TEMPO: 135
+H.26 -> NOTE:  DB: 11 TEMPO: 95
+H.27 -> NOTE:  DB: 18 TEMPO: 117
+H.28 -> NOTE:  DB: 11 TEMPO: 117
+H.29 -> NOTE:  DB: 6 TEMPO: 123
+H.30 -> NOTE:  DB: 16 TEMPO: 151
+H.31 -> NOTE:  DB: 13 TEMPO: 117
+H.32 -> NOTE:  DB: 15 TEMPO: 117
+H.33 -> NOTE:  DB: 15 TEMPO: 143
+H.34 -> NOTE:  DB: 11 TEMPO: 135
+H.35 -> NOTE:  DB: 28 TEMPO: 92
+H.36 -> NOTE:  DB: 23 TEMPO: 107
+H.37 -> NOTE:  DB: 23 TEMPO: 117
+H.38 -> NOTE:  DB: 23 TEMPO: 95
+H.39 -> NOTE:  DB: 19 TEMPO: 107
+H.40 -> NOTE:  DB: 21 TEMPO: 135
+H.41 -> NOTE:  DB: 26 TEMPO: 99
+H.42 -> NOTE:  DB: 24 TEMPO: 143
+H.43 -> NOTE:  DB: 31 TEMPO: 112
+H.44 -> NOTE:  DB: 25 TEMPO: 107
+H.45 -> NOTE:  DB: 24 TEMPO: 103
+H.46 -> NOTE:  DB: 24 TEMPO: 123
+H.47 -> NOTE:  DB: 22 TEMPO: 129
+H.48 -> NOTE:  DB: 22 TEMPO: 117
+H.49 -> NOTE:  DB: 26 TEMPO: 161
+H.50 -> NOTE:  DB: 22 TEMPO: 135
+H.51 -> NOTE:  DB: 15 TEMPO: 112
+H.52 -> NOTE:  DB: 16 TEMPO: 135
+H.53 -> NOTE:  DB: 11 TEMPO: 123
+H.54 -> NOTE:  DB: 15 TEMPO: 99
+H.55 -> NOTE:  DB: 10 TEMPO: 117
+H.56 -> NOTE:  DB: 13 TEMPO: 112
+H.57 -> NOTE:  DB: 19 TEMPO: 184
+H.58 -> NOTE:  DB: 21 TEMPO: 123
+H.59 -> NOTE:  DB: 28 TEMPO: 143
+H.60 -> NOTE: 1 DB: 29 TEMPO: 151
+H.61 -> NOTE: 3 DB: 30 TEMPO: 151
+H.62 -> NOTE: 2 DB: 28 TEMPO: 135
+H.63 -> NOTE: 3 DB: 28 TEMPO: 135
+H.64 -> NOTE: 2 DB: 31 TEMPO: 172
+H.65 -> NOTE: 2 DB: 31 TEMPO: 258
+H.66 -> NOTE: 2 DB: 28 TEMPO: 117
+H.67 -> NOTE: 3 DB: 25 TEMPO: 107
+H.68 -> NOTE: 2 DB: 44 TEMPO: 129
+H.69 -> NOTE: 2 DB: 37 TEMPO: 135
+H.70 -> NOTE: 2 DB: 37 TEMPO: 234
+H.71 -> NOTE: 3 DB: 34 TEMPO: 95
+H.72 -> NOTE: 2 DB: 35 TEMPO: 151
+H.73 -> NOTE: 1 DB: 35 TEMPO: 161
+H.74 -> NOTE: 1 DB: 37 TEMPO: 161
+H.75 -> NOTE: 3 DB: 31 TEMPO: 151
+H.76 -> NOTE: 3 DB: 33 TEMPO: 103
+H.77 -> NOTE: 3 DB: 29 TEMPO: 103
+H.78 -> NOTE: 3 DB: 31 TEMPO: 117
+H.79 -> NOTE: 2 DB: 31 TEMPO: 112
+H.80 -> NOTE: 3 DB: 32 TEMPO: 151
+H.81 -> NOTE: 4 DB: 22 TEMPO: 143
+H.82 -> NOTE: 4 DB: 28 TEMPO: 117
+H.83 -> NOTE: 2 DB: 36 TEMPO: 129
+H.84 -> NOTE: 2 DB: 37 TEMPO: 172
+H.85 -> NOTE: 3 DB: 30 TEMPO: 89
+H.86 -> NOTE: 4 DB: 30 TEMPO: 86
+H.87 -> NOTE: 2 DB: 41 TEMPO: 151
+H.88 -> NOTE: 1 DB: 39 TEMPO: 143
+H.89 -> NOTE: 3 DB: 38 TEMPO: 117
+H.90 -> NOTE: 2 DB: 33 TEMPO: 151
+H.91 -> NOTE: 3 DB: 30 TEMPO: 135
+H.92 -> NOTE: 5 DB: 28 TEMPO: 161
+H.93 -> NOTE: 7 DB: 34 TEMPO: 129
+H.94 -> NOTE: 6 DB: 32 TEMPO: 117
+H.95 -> NOTE: 5 DB: 23 TEMPO: 135
+H.96 -> NOTE: 4 DB: 29 TEMPO: 129
+H.97 -> NOTE: 5 DB: 25 TEMPO: 135
+H.98 -> NOTE: 4 DB: 27 TEMPO: 151
+H.99 -> NOTE: 4 DB: 27 TEMPO: 129
+H.100 -> NOTE: 4 DB: 33 TEMPO: 129
+H.101 -> NOTE: 4 DB: 27 TEMPO: 161
+H.102 -> NOTE: 4 DB: 26 TEMPO: 143
+H.103 -> NOTE: 3 DB: 28 TEMPO: 123
+H.104 -> NOTE: 5 DB: 33 TEMPO: 123
+H.105 -> NOTE: 2 DB: 31 TEMPO: 123
+H.106 -> NOTE: 2 DB: 31 TEMPO: 143
+H.107 -> NOTE: 3 DB: 32 TEMPO: 117
+H.108 -> NOTE: 3 DB: 31 TEMPO: 143
+H.109 -> NOTE: 3 DB: 27 TEMPO: 123
+H.110 -> NOTE: 3 DB: 26 TEMPO: 123
+H.111 -> NOTE: 6 DB: 29 TEMPO: 161
+H.112 -> NOTE: 6 DB: 30 TEMPO: 151
+H.113 -> NOTE: 4 DB: 35 TEMPO: 117
+H.114 -> NOTE: 1 DB: 33 TEMPO: 172
+H.115 -> NOTE: 4 DB: 30 TEMPO: 117
+H.116 -> NOTE: 6 DB: 36 TEMPO: 172
+H.117 -> NOTE: 6 DB: 22 TEMPO: 123
+H.118 -> NOTE: 3 DB: 33 TEMPO: 135
+H.119 -> NOTE: 3 DB: 32 TEMPO: 99
+H.120 -> NOTE: 3 DB: 34 TEMPO: 135
+H.121 -> NOTE: 3 DB: 38 TEMPO: 99
+H.122 -> NOTE:  DB: 33 TEMPO: 92
+H.123 -> NOTE:  DB: 33 TEMPO: 92
+H.124 -> NOTE:  DB: 37 TEMPO: 95
+H.125 -> NOTE:  DB: 24 TEMPO: 99
+H.126 -> NOTE:  DB: 22 TEMPO: 112
+H.127 -> NOTE:  DB: 37 TEMPO: 135
+H.128 -> NOTE:  DB: 41 TEMPO: 107
+H.129 -> NOTE:  DB: 22 TEMPO: 103
+H.130 -> NOTE:  DB: 24 TEMPO: 143
+H.131 -> NOTE:  DB: 32 TEMPO: 107
+H.132 -> NOTE:  DB: 33 TEMPO: 135
+H.133 -> NOTE:  DB: 35 TEMPO: 135
+H.134 -> NOTE:  DB: 37 TEMPO: 103
+H.135 -> NOTE:  DB: 25 TEMPO: 143
+H.136 -> NOTE:  DB: 23 TEMPO: 112
+H.137 -> NOTE:  DB: 41 TEMPO: 151
+H.138 -> NOTE:  DB: 35 TEMPO: 135
+H.139 -> NOTE:  DB: 39 TEMPO: 112
+H.140 -> NOTE:  DB: 34 TEMPO: 143
+H.141 -> NOTE:  DB: 44 TEMPO: 161
+H.142 -> NOTE:  DB: 44 TEMPO: 89
+H.143 -> NOTE:  DB: 29 TEMPO: 135
+H.144 -> NOTE:  DB: 31 TEMPO: 103
+H.145 -> NOTE:  DB: 44 TEMPO: 143
+H.146 -> NOTE:  DB: 38 TEMPO: 151
+H.147 -> NOTE:  DB: 40 TEMPO: 103
+H.148 -> NOTE:  DB: 35 TEMPO: 198
+H.149 -> NOTE:  DB: 33 TEMPO: 107
+H.150 -> NOTE:  DB: 33 TEMPO: 103
+H.151 -> NOTE:  DB: 28 TEMPO: 112
+H.152 -> NOTE:  DB: 30 TEMPO: 117
+H.153 -> NOTE:  DB: 30 TEMPO: 103
+H.154 -> NOTE:  DB: 30 TEMPO: 123
+H.155 -> NOTE:  DB: 37 TEMPO: 143
+H.156 -> NOTE:  DB: 46 TEMPO: 123
+H.157 -> NOTE:  DB: 28 TEMPO: 92
+H.158 -> NOTE:  DB: 28 TEMPO: 112
+H.159 -> NOTE:  DB: 45 TEMPO: 161
+H.160 -> NOTE:  DB: 51 TEMPO: 95
+H.161 -> NOTE:  DB: 32 TEMPO: 143
+H.162 -> NOTE:  DB: 37 TEMPO: 103
+H.163 -> NOTE:  DB: 34 TEMPO: 112
+H.164 -> NOTE:  DB: 32 TEMPO: 129
+H.165 -> NOTE:  DB: 35 TEMPO: 107
+H.166 -> NOTE:  DB: 38 TEMPO: 107
+H.167 -> NOTE:  DB: 29 TEMPO: 135
+H.168 -> NOTE:  DB: 29 TEMPO: 172
+H.169 -> NOTE:  DB: 28 TEMPO: 143
+H.170 -> NOTE:  DB: 29 TEMPO: 161
+H.171 -> NOTE:  DB: 33 TEMPO: 117
+H.172 -> NOTE:  DB: 26 TEMPO: 129
+H.173 -> NOTE:  DB: 32 TEMPO: 135
+H.174 -> NOTE:  DB: 20 TEMPO: 95
+H.175 -> NOTE:  DB: 33 TEMPO: 107
+H.176 -> NOTE:  DB: 36 TEMPO: 86
+H.177 -> NOTE:  DB: 38 TEMPO: 117
+H.178 -> NOTE:  DB: 39 TEMPO: 123
+H.179 -> NOTE:  DB: 22 TEMPO: 123
+H.180 -> NOTE:  DB: 23 TEMPO: 112
+H.181 -> NOTE:  DB: 26 TEMPO: 198
+H.182 -> NOTE:  DB: 38 TEMPO: 135
+H.183 -> NOTE:  DB: 30 TEMPO: 143
+H.184 -> NOTE:  DB: 25 TEMPO: 172
+H.185 -> NOTE:  DB: 33 TEMPO: 112
+H.186 -> NOTE:  DB: 25 TEMPO: 112
+H.187 -> NOTE:  DB: 37 TEMPO: 129
+H.188 -> NOTE:  DB: 30 TEMPO: 92
+H.189 -> NOTE:  DB: 23 TEMPO: 129
+H.190 -> NOTE:  DB: 26 TEMPO: 135
+H.191 -> NOTE:  DB: 31 TEMPO: 123
+H.192 -> NOTE:  DB: 27 TEMPO: 135
+H.193 -> NOTE:  DB: 32 TEMPO: 151
+H.194 -> NOTE:  DB: 37 TEMPO: 123
+H.195 -> NOTE:  DB: 43 TEMPO: 172
+H.196 -> NOTE:  DB: 39 TEMPO: 129
+H.197 -> NOTE:  DB: 31 TEMPO: 184
+H.198 -> NOTE:  DB: 26 TEMPO: 135
+H.199 -> NOTE:  DB: 42 TEMPO: 184
+H.200 -> NOTE:  DB: 41 TEMPO: 117
+H.201 -> NOTE:  DB: 35 TEMPO: 151
+H.202 -> NOTE:  DB: 31 TEMPO: 117
+H.203 -> NOTE:  DB: 38 TEMPO: 129
+H.204 -> NOTE:  DB: 35 TEMPO: 95
+H.205 -> NOTE:  DB: 34 TEMPO: 129
+H.206 -> NOTE:  DB: 28 TEMPO: 184
+H.207 -> NOTE:  DB: 27 TEMPO: 161
+H.208 -> NOTE:  DB: 25 TEMPO: 129
+H.209 -> NOTE:  DB: 38 TEMPO: 123
+H.210 -> NOTE:  DB: 33 TEMPO: 123
+H.211 -> NOTE:  DB: 30 TEMPO: 135
+H.212 -> NOTE:  DB: 23 TEMPO: 143
+H.213 -> NOTE:  DB: 41 TEMPO: 99
+H.214 -> NOTE:  DB: 35 TEMPO: 161
+H.215 -> NOTE:  DB: 33 TEMPO: 123
+H.216 -> NOTE:  DB: 29 TEMPO: 135
+H.217 -> NOTE:  DB: 34 TEMPO: 95
+H.218 -> NOTE:  DB: 37 TEMPO: 107
+H.219 -> NOTE:  DB: 31 TEMPO: 198
+H.220 -> NOTE:  DB: 35 TEMPO: 117
+H.221 -> NOTE:  DB: 21 TEMPO: 143
+H.222 -> NOTE:  DB: 21 TEMPO: 151
+H.223 -> NOTE:  DB: 27 TEMPO: 184
+H.224 -> NOTE:  DB: 34 TEMPO: 151
+H.225 -> NOTE:  DB: 35 TEMPO: 143
+H.226 -> NOTE:  DB: 38 TEMPO: 112
+H.227 -> NOTE:  DB: 40 TEMPO: 143
+H.228 -> NOTE:  DB: 37 TEMPO: 117
+H.229 -> NOTE:  DB: 39 TEMPO: 129
+H.230 -> NOTE:  DB: 36 TEMPO: 117
+H.231 -> NOTE:  DB: 35 TEMPO: 107
+H.232 -> NOTE:  DB: 34 TEMPO: 151
+H.233 -> NOTE:  DB: 33 TEMPO: 123
+H.234 -> NOTE:  DB: 31 TEMPO: 135
+H.235 -> NOTE:  DB: 30 TEMPO: 143
+H.236 -> NOTE:  DB: 31 TEMPO: 129
+H.237 -> NOTE:  DB: 36 TEMPO: 234
+H.238 -> NOTE:  DB: 31 TEMPO: 151
+H.239 -> NOTE:  DB: 35 TEMPO: 135
+H.240 -> NOTE:  DB: 36 TEMPO: 161
+H.241 -> NOTE:  DB: 32 TEMPO: 143
+H.242 -> NOTE:  DB: 40 TEMPO: 172
+H.243 -> NOTE:  DB: 44 TEMPO: 107
+H.244 -> NOTE:  DB: 37 TEMPO: 151
+H.245 -> NOTE:  DB: 40 TEMPO: 161
+H.246 -> NOTE:  DB: 38 TEMPO: 129
+H.247 -> NOTE:  DB: 42 TEMPO: 161
+H.248 -> NOTE:  DB: 46 TEMPO: 129
+H.249 -> NOTE:  DB: 41 TEMPO: 123
+H.250 -> NOTE:  DB: 38 TEMPO: 161
+H.251 -> NOTE:  DB: 37 TEMPO: 184
+H.252 -> NOTE:  DB: 31 TEMPO: 135
+H.253 -> NOTE:  DB: 42 TEMPO: 123
+H.254 -> NOTE:  DB: 41 TEMPO: 107
+H.255 -> NOTE:  DB: 48 TEMPO: 234
+H.256 -> NOTE:  DB: 47 TEMPO: 143
+H.257 -> NOTE:  DB: 41 TEMPO: 112
+H.258 -> NOTE:  DB: 46 TEMPO: 123
+H.259 -> NOTE:  DB: 36 TEMPO: 198
+H.260 -> NOTE:  DB: 34 TEMPO: 129
+H.261 -> NOTE:  DB: 39 TEMPO: 151
+H.262 -> NOTE:  DB: 41 TEMPO: 123
+H.263 -> NOTE:  DB: 45 TEMPO: 117
+H.264 -> NOTE:  DB: 47 TEMPO: 135
+H.265 -> NOTE:  DB: 40 TEMPO: 151
+H.266 -> NOTE:  DB: 35 TEMPO: 117
+H.267 -> NOTE:  DB: 49 TEMPO: 161
+H.268 -> NOTE:  DB: 51 TEMPO: 172
+H.269 -> NOTE:  DB: 45 TEMPO: 172
+H.270 -> NOTE:  DB: 44 TEMPO: 123
+H.271 -> NOTE:  DB: 35 TEMPO: 151
+H.272 -> NOTE:  DB: 38 TEMPO: 129
+H.273 -> NOTE:  DB: 36 TEMPO: 161
+H.274 -> NOTE:  DB: 35 TEMPO: 129
+H.275 -> NOTE:  DB: 28 TEMPO: 151
+H.276 -> NOTE:  DB: 37 TEMPO: 123
+H.277 -> NOTE:  DB: 23 TEMPO: 129
+H.278 -> NOTE:  DB: 26 TEMPO: 123
+H.279 -> NOTE:  DB: 27 TEMPO: 129
+H.280 -> NOTE:  DB: 27 TEMPO: 151
+H.281 -> NOTE:  DB: 33 TEMPO: 151
+H.282 -> NOTE:  DB: 38 TEMPO: 117
+H.283 -> NOTE:  DB: 42 TEMPO: 151
+H.284 -> NOTE:  DB: 33 TEMPO: 123
+H.285 -> NOTE:  DB: 34 TEMPO: 123
+H.286 -> NOTE:  DB: 26 TEMPO: 161
+H.287 -> NOTE:  DB: 28 TEMPO: 161
+H.288 -> NOTE:  DB: 29 TEMPO: 161
+H.289 -> NOTE:  DB: 36 TEMPO: 135
+H.290 -> NOTE:  DB: 27 TEMPO: 172
+H.291 -> NOTE:  DB: 19 TEMPO: 143
+H.292 -> NOTE:  DB: 31 TEMPO: 184
+H.293 -> NOTE:  DB: 29 TEMPO: 143
+H.294 -> NOTE:  DB: 44 TEMPO: 143
+H.295 -> NOTE:  DB: 39 TEMPO: 86
+H.296 -> NOTE:  DB: 27 TEMPO: 143
+H.297 -> NOTE:  DB: 29 TEMPO: 143
+H.298 -> NOTE:  DB: 33 TEMPO: 161
+H.299 -> NOTE:  DB: 32 TEMPO: 117
+H.300 -> NOTE:  DB: 40 TEMPO: 123
+H.301 -> NOTE:  DB: 33 TEMPO: 117
+H.302 -> NOTE:  DB: 46 TEMPO: 123
+H.303 -> NOTE:  DB: 45 TEMPO: 95
+H.304 -> NOTE:  DB: 40 TEMPO: 129
+H.305 -> NOTE:  DB: 35 TEMPO: 184
+H.306 -> NOTE:  DB: 39 TEMPO: 151
+H.307 -> NOTE:  DB: 40 TEMPO: 129
+H.308 -> NOTE:  DB: 30 TEMPO: 151
+H.309 -> NOTE:  DB: 39 TEMPO: 123
+H.310 -> NOTE:  DB: 38 TEMPO: 129
+H.311 -> NOTE:  DB: 33 TEMPO: 103
+H.312 -> NOTE:  DB: 37 TEMPO: 151
+H.313 -> NOTE:  DB: 37 TEMPO: 112
+H.314 -> NOTE:  DB: 40 TEMPO: 151
+H.315 -> NOTE:  DB: 38 TEMPO: 112
+H.316 -> NOTE:  DB: 41 TEMPO: 129
+H.317 -> NOTE:  DB: 43 TEMPO: 143
+H.318 -> NOTE:  DB: 40 TEMPO: 135
+H.319 -> NOTE:  DB: 33 TEMPO: 123
+H.320 -> NOTE:  DB: 44 TEMPO: 71
+H.321 -> NOTE:  DB: 44 TEMPO: 129
+H.322 -> NOTE:  DB: 31 TEMPO: 172
+H.323 -> NOTE:  DB: 35 TEMPO: 143
+H.324 -> NOTE:  DB: 39 TEMPO: 161
+H.325 -> NOTE:  DB: 30 TEMPO: 135
+H.326 -> NOTE:  DB: 40 TEMPO: 143
+H.327 -> NOTE:  DB: 44 TEMPO: 172
+H.328 -> NOTE:  DB: 26 TEMPO: 129
+H.329 -> NOTE:  DB: 33 TEMPO: 161
+H.330 -> NOTE:  DB: 37 TEMPO: 172
+H.331 -> NOTE:  DB: 35 TEMPO: 135
+H.332 -> NOTE:  DB: 33 TEMPO: 73
+H.333 -> NOTE:  DB: 30 TEMPO: 107
+H.334 -> NOTE:  DB: 38 TEMPO: 135
+H.335 -> NOTE:  DB: 34 TEMPO: 107
+H.336 -> NOTE:  DB: 32 TEMPO: 123
+H.337 -> NOTE:  DB: 31 TEMPO: 172
+H.338 -> NOTE:  DB: 39 TEMPO: 107
+H.339 -> NOTE:  DB: 35 TEMPO: 123
+H.340 -> NOTE:  DB: 26 TEMPO: 151
+H.341 -> NOTE:  DB: 25 TEMPO: 92
+H.342 -> NOTE:  DB: 25 TEMPO: 172
+H.343 -> NOTE:  DB: 37 TEMPO: 129
+H.344 -> NOTE:  DB: 24 TEMPO: 112
+H.345 -> NOTE:  DB: 25 TEMPO: 99
+H.346 -> NOTE:  DB: 32 TEMPO: 161
+H.347 -> NOTE:  DB: 27 TEMPO: 161
+H.348 -> NOTE:  DB: 34 TEMPO: 112
+H.349 -> NOTE:  DB: 37 TEMPO: 54
+H.350 -> NOTE:  DB: 30 TEMPO: 129
+H.351 -> NOTE:  DB: 28 TEMPO: 123
+H.352 -> NOTE:  DB: 29 TEMPO: 129
+H.353 -> NOTE:  DB: 32 TEMPO: 143
+H.354 -> NOTE:  DB: 26 TEMPO: 123
+H.355 -> NOTE:  DB: 37 TEMPO: 123
+H.356 -> NOTE:  DB: 39 TEMPO: 123
+H.357 -> NOTE:  DB: 41 TEMPO: 112
+H.358 -> NOTE:  DB: 24 TEMPO: 129
+H.359 -> NOTE:  DB: 34 TEMPO: 143
+H.360 -> NOTE:  DB: 40 TEMPO: 117
+H.361 -> NOTE:  DB: 38 TEMPO: 151
+H.362 -> NOTE:  DB: 28 TEMPO: 161
+H.363 -> NOTE:  DB: 31 TEMPO: 112
+H.364 -> NOTE:  DB: 38 TEMPO: 143
+H.365 -> NOTE:  DB: 26 TEMPO: 129
+H.366 -> NOTE:  DB: 30 TEMPO: 86
+H.367 -> NOTE:  DB: 32 TEMPO: 143
+H.368 -> NOTE:  DB: 33 TEMPO: 198
+H.369 -> NOTE:  DB: 39 TEMPO: 117
+H.370 -> NOTE:  DB: 39 TEMPO: 112
+H.371 -> NOTE:  DB: 38 TEMPO: 117
+H.372 -> NOTE:  DB: 20 TEMPO: 161
+H.373 -> NOTE:  DB: 25 TEMPO: 89
+H.374 -> NOTE:  DB: 48 TEMPO: 129
+H.375 -> NOTE:  DB: 37 TEMPO: 83
+H.376 -> NOTE:  DB: 36 TEMPO: 172
+H.377 -> NOTE:  DB: 37 TEMPO: 66
+H.378 -> NOTE:  DB: 35 TEMPO: 123
+H.379 -> NOTE:  DB: 32 TEMPO: 161
+H.380 -> NOTE:  DB: 35 TEMPO: 92
+H.381 -> NOTE:  DB: 36 TEMPO: 123
+H.382 -> NOTE:  DB: 22 TEMPO: 135
+H.383 -> NOTE:  DB: 31 TEMPO: 103
+H.384 -> NOTE:  DB: 38 TEMPO: 117
+H.385 -> NOTE:  DB: 27 TEMPO: 103
+H.386 -> NOTE:  DB: 33 TEMPO: 143
+H.387 -> NOTE:  DB: 34 TEMPO: 198
+H.388 -> NOTE:  DB: 32 TEMPO: 112
+H.389 -> NOTE:  DB: 34 TEMPO: 123
+H.390 -> NOTE:  DB: 41 TEMPO: 161
+H.391 -> NOTE:  DB: 41 TEMPO: 129
+H.392 -> NOTE:  DB: 37 TEMPO: 123
+H.393 -> NOTE:  DB: 38 TEMPO: 117
+H.394 -> NOTE:  DB: 34 TEMPO: 129
+H.395 -> NOTE:  DB: 35 TEMPO: 117
+H.396 -> NOTE:  DB: 36 TEMPO: 161
+H.397 -> NOTE:  DB: 40 TEMPO: 103
+H.398 -> NOTE:  DB: 27 TEMPO: 184
+H.399 -> NOTE:  DB: 35 TEMPO: 107
+H.400 -> NOTE:  DB: 37 TEMPO: 107
+H.401 -> NOTE:  DB: 30 TEMPO: 151
+H.402 -> NOTE:  DB: 36 TEMPO: 135
+H.403 -> NOTE:  DB: 35 TEMPO: 117
+H.404 -> NOTE:  DB: 37 TEMPO: 151
+H.405 -> NOTE:  DB: 38 TEMPO: 143
+H.406 -> NOTE:  DB: 37 TEMPO: 135
+H.407 -> NOTE:  DB: 34 TEMPO: 112
+H.408 -> NOTE:  DB: 47 TEMPO: 117
+H.409 -> NOTE:  DB: 32 TEMPO: 172
+H.410 -> NOTE:  DB: 47 TEMPO: 92
+H.411 -> NOTE:  DB: 42 TEMPO: 129
+H.412 -> NOTE:  DB: 38 TEMPO: 135
+H.413 -> NOTE:  DB: 30 TEMPO: 103
+H.414 -> NOTE:  DB: 42 TEMPO: 161
+H.415 -> NOTE:  DB: 44 TEMPO: 117
+H.416 -> NOTE:  DB: 45 TEMPO: 117
+H.417 -> NOTE:  DB: 48 TEMPO: 117
+H.418 -> NOTE:  DB: 38 TEMPO: 184
+H.419 -> NOTE:  DB: 44 TEMPO: 123
+H.420 -> NOTE:  DB: 40 TEMPO: 143
+H.421 -> NOTE:  DB: 39 TEMPO: 112
+H.422 -> NOTE:  DB: 42 TEMPO: 95
+H.423 -> NOTE:  DB: 37 TEMPO: 117
+H.424 -> NOTE:  DB: 44 TEMPO: 135
+H.425 -> NOTE:  DB: 42 TEMPO: 135
+H.426 -> NOTE:  DB: 34 TEMPO: 99
+H.427 -> NOTE:  DB: 37 TEMPO: 112
+H.428 -> NOTE:  DB: 47 TEMPO: 123
+H.429 -> NOTE:  DB: 36 TEMPO: 112
+H.430 -> NOTE:  DB: 43 TEMPO: 135
+H.431 -> NOTE:  DB: 39 TEMPO: 135
+H.432 -> NOTE:  DB: 38 TEMPO: 172
+H.433 -> NOTE:  DB: 37 TEMPO: 99
+H.434 -> NOTE:  DB: 48 TEMPO: 129
+H.435 -> NOTE:  DB: 37 TEMPO: 143
+H.436 -> NOTE:  DB: 34 TEMPO: 112
+H.437 -> NOTE:  DB: 34 TEMPO: 234
+H.438 -> NOTE:  DB: 26 TEMPO: 117
+H.439 -> NOTE:  DB: 22 TEMPO: 143
