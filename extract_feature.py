@@ -134,7 +134,7 @@ def extract_db_vector(txt_path_file):
         for row in file.readlines():
             audio_info = row.split("->")[1]
             if audio_info.split("DB: ")[1][0] != 'N':
-                dbs.append(int(audio_info.split("DB: ")[1][0] + audio_info.split("DB: ")[1][1]))
+                dbs.append(audio_info.split("DB: ")[1][0] + audio_info.split("DB: ")[1][1])
             else:
                 dbs.append("null")
     return dbs
@@ -157,7 +157,10 @@ def extract_notation_vector(txt_path_file):
     with open(txt_path_file) as file:
         for row in file.readlines():
             audio_info = row.split("->")[1]
-            vectors.append(audio_info.split("NOTE: ")[1][0])
+            if audio_info.split("NOTE: ")[1][1] == str(0):
+                vectors.append(10)
+            else:
+                vectors.append(audio_info.split("NOTE: ")[1][0])
     return vectors
 
 def main():
@@ -170,5 +173,3 @@ def main():
     end = time.time()
     print("Time: " + str(end - start))
 
-
-main()
