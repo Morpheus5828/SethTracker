@@ -9,11 +9,11 @@ import json
 
 french_ds = os.listdir('dataset/Fr')
 
-'''dico_audio_note = {}
+dico_audio_note = {}
 
 with open('./dataset/Fr_annotate.csv', newline='') as file:
     for i in csv.DictReader(file):
-        dico_audio_note[i.get('AUDIO')] = i.get('NOTE')'''
+        dico_audio_note[i.get('AUDIO')] = i.get('NOTE')
 
 
 class Point:
@@ -26,7 +26,9 @@ def exist(file):
     return os.path.isfile(file)
 
 
-def get_tempo(file):
+################################################
+
+def get_rate(file):
     if exist(file):
         y, sr = librosa.load(file)
         onset_env = librosa.onset.onset_strength(y=y, sr=sr)
@@ -35,14 +37,15 @@ def get_tempo(file):
 
 
 def get_freq_average(file):
-    y, sr = librosa.load(file)
-    S = np.abs(librosa.stft(y))
-    chroma = librosa.feature.chroma_stft(S=S, sr=sr)
-    chroma = np.average(chroma)
-    return str(chroma)
+    if exist(file):
+        y, sr = librosa.load(file)
+        S = np.abs(librosa.stft(y))
+        chroma = librosa.feature.chroma_stft(S=S, sr=sr)
+        chroma = np.average(chroma)
+        return str(chroma)
 
 
-def get_db(file):
+def get_intensity(file):
     if exist(file):
         y, sr = librosa.load(file)
         S = np.abs(librosa.stft(y))
@@ -102,6 +105,8 @@ def get_coef(x1, x2, y1, y2):
         return delta_y / delta_x
 
 
+################################################
+
 def write_feature_info(file_dest, dico):
     try:
         file_dest = open(file_dest, "w")
@@ -109,9 +114,10 @@ def write_feature_info(file_dest, dico):
             file_dest.write(
                 str(audio) +
                 " -> " +
-                "NOTE: " + str(dico.get(audio)) + " " +
-                "DB: " + str(get_db('dataset/Fr/' + str(audio) + ".mp3")) + " " +
-                "TEMPO: " + str(get_tempo('dataset/Fr/' + str(audio) + ".mp3")) + "\n"
+                "GRADE: " + str(dico.get(audio)) + " " +
+                "RATE: " + str(get_rate('dataset/Fr/' + str(audio) + ".mp3")) + " " +
+                "FREQ: " + str(get_freq_average('dataset/Fr/' + str(audio) + ".mp3")) + " " +
+                "INTENSITY: " + str(get_intensity('dataset/Fr/' + str(audio) + ".mp3")) + " " + "\n"
             )
 
     except ValueError:
@@ -120,7 +126,7 @@ def write_feature_info(file_dest, dico):
     file_dest.close()
 
 
-def extract_csv_to_dico(dico_path):
+def convert_csv_to_dico(dico_path):
     dico_audio_note = {}
     with open(dico_path, newline='') as file:
         for i in csv.DictReader(file):
@@ -128,64 +134,105 @@ def extract_csv_to_dico(dico_path):
     return dico_audio_note
 
 
+################################################
+
 def extract_rate_vector(txt_path_file):
     dbs = []
     with open(txt_path_file) as file:
         for row in file.readlines():
             audio_info = row.split("->")[1]
-            if audio_info.split("DB: ")[1][0] != 'N':
-                dbs.append(audio_info.split("DB: ")[1][0] + audio_info.split("DB: ")[1][1])
+            if audio_info.split("RATE: ")[1][0] != 'N':
+                dbs.append(
+                    audio_info.split("RATE: ")[1][0] +
+                    audio_info.split("RATE: ")[1][1] +
+                    audio_info.split("RATE: ")[1][2]
+                )
             else:
                 dbs.append("null")
     return dbs
 
 
-def extract_sample_rate(txt_path_file, list_id):
-    sample_dbs = []
-    dbs = extract_rate_vector(txt_path_file)
-    for i in list_id:
-        sample_dbs.append(int(dbs[i]))
-    return sample_dbs
-
-
-def extract_sample_tempo(txt_path_file, list_id):
-    sample_tempo = []
-    tempo = extract_tempo_vector(txt_path_file)
-    for i in list_id:
-        sample_tempo.append(int(tempo[i]))
-    return sample_tempo
-
-
-def extract_tempo_vector(txt_path_file):
-    tempos = []
+def extract_freq_vector(txt_path_file):
+    freqs = []
     with open(txt_path_file) as file:
         for row in file.readlines():
             audio_info = row.split("->")[1]
-            tempos.append(
-                audio_info.split("TEMPO: ")[1][0] + \
-                audio_info.split("TEMPO: ")[1][1] + \
-                audio_info.split("TEMPO: ")[1][2])
-    return tempos
+            if audio_info.split("FREQ: ")[1][0] != "N":
+                freqs.append(
+                    float(
+                        (audio_info.split("FREQ: ")[1][0]) +
+                        (audio_info.split("FREQ: ")[1][1]) +
+                        (audio_info.split("FREQ: ")[1][2]) +
+                        (audio_info.split("FREQ: ")[1][3]) +
+                        (audio_info.split("FREQ: ")[1][4])
+                    )
+                )
+
+    return freqs
 
 
-def extract_notation_vector(txt_path_file):
+def extract_intensity_vector(txt_path_file):
+    intensity = []
+    with open(txt_path_file) as file:
+        for row in file.readlines():
+            audio_info = row.split("->")[1]
+            if audio_info.split("INTENSITY: ")[1][0] != 'N':
+                intensity.append(
+                    int(
+                        audio_info.split("INTENSITY: ")[1][0] +
+                        audio_info.split("INTENSITY: ")[1][1]
+                    )
+                )
+    return intensity
+
+
+def extract_grade_vector(txt_path_file):
     vectors = []
     with open(txt_path_file) as file:
         for row in file.readlines():
             audio_info = row.split("->")[1]
-            if audio_info.split("NOTE: ")[1][1] == str(0):
+            if audio_info.split("GRADE: ")[1][1] == str(0):
                 vectors.append(10)
             else:
-                vectors.append(audio_info.split("NOTE: ")[1][0])
+                vectors.append(audio_info.split("GRADE: ")[1][0])
     return vectors
 
 
+################################################
+
+def extract_sample_rate(txt_path_file, list_id):
+    sample_dbs = []
+    rate = extract_rate_vector(txt_path_file)
+    for i in list_id:
+        sample_dbs.append(int(rate[i]))
+    return sample_dbs
+
+
+def extract_sample_freq(txt_path_file, list_id):
+    sample_freq = []
+    freqs = extract_freq_vector(txt_path_file)
+    for i in list_id:
+        sample_freq.append(freqs[i])
+    return sample_freq
+
+
+def extract_sample_intensity(txt_path_file, list_id):
+    sample_intensity = []
+    intensities = extract_intensity_vector(txt_path_file)
+    for i in list_id:
+        sample_intensity.append(intensities[i])
+    return sample_intensity
+
+
+################################################
 def main():
     start = time.time()
 
-    dico = extract_csv_to_dico("./dataset/Fr_annotate.csv")
-    write_feature_info("./evaluation/Fr_features", dico)
-    # print(extract_notation_vector("./evaluation/Fr_features"))
+    # write_feature_info("evaluation/Fr_features", dico_audio_note)
+    print(extract_intensity_vector("evaluation/Fr_features"))
 
     end = time.time()
     print("Time: " + str(end - start))
+
+
+main()
