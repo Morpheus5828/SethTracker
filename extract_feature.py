@@ -217,11 +217,11 @@ def extract_sample_freq(txt_path_file, list_id):
 
 
 def extract_sample_intensity(txt_path_file, list_id):
-    sample_intensity = []
+    sample = []
     intensities = extract_intensity_vector(txt_path_file)
     for i in list_id:
-        sample_intensity.append(intensities[i])
-    return sample_intensity
+        sample.append(intensities[i])
+    return sample
 
 
 ################################################
@@ -229,7 +229,7 @@ def main():
     start = time.time()
 
     # write_feature_info("evaluation/Fr_features", dico_audio_note)
-    print(extract_intensity_vector("evaluation/Fr_features"))
+
 
     end = time.time()
     print("Time: " + str(end - start))
