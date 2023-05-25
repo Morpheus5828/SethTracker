@@ -12,10 +12,7 @@ class Point:
         self.note = note
 
 
-def display_records_gradation(limit):
-    plt.xlim(0, 461)
-    plt.ylim(0, 10)
-
+def extract_records_gradation(limit):
     feature_path = "./evaluation/Fr_features"
     note = ef.extract_notation_vector(feature_path)
 
@@ -34,8 +31,15 @@ def display_records_gradation(limit):
                 note_id_under_limit.append(int(note[i]))
                 list_id_under_limit.append(i)
 
-    print(str(len(list_id_overhead_limit)), " on ", str(len(list_id_under_limit) + len(list_id_overhead_limit)), " overhead the limit")
+    print(str(len(list_id_overhead_limit)), " on ", str(len(list_id_under_limit) + len(list_id_overhead_limit)),
+          " overhead the limit")
+    return list_id_under_limit, note_id_under_limit, list_id_overhead_limit, note_id_overhead_limit
 
+
+def display_records_gradation(limit):
+    plt.xlim(0, 461)
+    plt.ylim(0, 10)
+    list_id_under_limit, note_id_under_limit, list_id_overhead_limit, note_id_overhead_limit = extract_records_gradation(limit)
     plt.scatter(list_id_under_limit, note_id_under_limit)
     plt.scatter(list_id_overhead_limit, note_id_overhead_limit)
 
@@ -45,38 +49,36 @@ def display_records_gradation(limit):
 
     plt.legend()
     plt.title('Records gradation')
-    plt.show()
+    return list_id_under_limit, list_id_overhead_limit
+
+
+def display_intensity_by_tempo_rate(feature_path, list_id, title, xmax, ymax):
+    plt.figure(title)
+    a = ef.extract_sample_rate(feature_path, list_id)
+    b = ef.extract_sample_tempo(feature_path, list_id)
+    plt.scatter(a, b)
+    plt.xlim(0, xmax)
+    plt.ylim(0, ymax)
+    plt.title(title)
+    plt.xlabel('Rate in dB')
+    plt.ylabel('Tempo in bpm')
+
 
 def main():
-    #dico = ef.extract_csv_to_dico("./dataset/Fr_annotate.csv")
-    #ef.write_feature_info("./evaluation/Fr_features", dico)
+    # dico = ef.extract_csv_to_dico("./dataset/Fr_annotate.csv")
+    # ef.write_feature_info("./evaluation/Fr_features", dico)
 
     feature_path = "./evaluation/Fr_features"
 
-    display_records_gradation(6)
+    # rate = ef.extract_rate_vector(feature_path)
+    # note = ef.extract_notation_vector(feature_path)
+    # tempo = ef.extract_tempo_vector(feature_path)
 
-    db = ef.extract_db_vector(feature_path)
-    note = ef.extract_notation_vector(feature_path)
-    tempo = ef.extract_tempo_vector(feature_path)
+    list_id_under_limit, note_id_under_limit, list_id_overhead_limit, note_id_overhead_limit = extract_records_gradation(6)
 
-    '''note_x_plus = []
-    tempo_y_plus = []
-    note_x_moins = []
-    tempo_y_moins = []
+    display_intensity_by_tempo_rate(feature_path, list_id_under_limit, "Record under limit", 50, 300)
 
-    for i in range(len(note)):
-        if (db[i] != ' ' and db[i] != 'null') and (tempo[i] != ' ' and tempo[i] != 'null') and note[i] != ' ':
-            if int(note[i]) <= 5:
-                note_x_moins.append(int(db[i]))
-                tempo_y_moins.append(int(tempo[i]))
-            else:
-                note_x_plus.append(int(db[i]))
-                tempo_y_plus.append(int(tempo[i]))
-
-    plt.scatter(note_x_plus, tempo_y_plus, c='red')
-    plt.scatter(note_x_moins, tempo_y_moins, c='blue')
-    plt.xlabel("Intensité Sonore en dB")
-    plt.ylabel("Tempo en BPM")'''
-
+    display_intensity_by_tempo_rate(feature_path, list_id_overhead_limit, "Record overhead limit", 50, 300)
+    plt.show()
 
 main()

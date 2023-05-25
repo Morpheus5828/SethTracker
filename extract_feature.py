@@ -128,7 +128,7 @@ def extract_csv_to_dico(dico_path):
     return dico_audio_note
 
 
-def extract_db_vector(txt_path_file):
+def extract_rate_vector(txt_path_file):
     dbs = []
     with open(txt_path_file) as file:
         for row in file.readlines():
@@ -138,6 +138,22 @@ def extract_db_vector(txt_path_file):
             else:
                 dbs.append("null")
     return dbs
+
+
+def extract_sample_rate(txt_path_file, list_id):
+    sample_dbs = []
+    dbs = extract_rate_vector(txt_path_file)
+    for i in list_id:
+        sample_dbs.append(int(dbs[i]))
+    return sample_dbs
+
+
+def extract_sample_tempo(txt_path_file, list_id):
+    sample_tempo = []
+    tempo = extract_tempo_vector(txt_path_file)
+    for i in list_id:
+        sample_tempo.append(int(tempo[i]))
+    return sample_tempo
 
 
 def extract_tempo_vector(txt_path_file):
@@ -163,13 +179,13 @@ def extract_notation_vector(txt_path_file):
                 vectors.append(audio_info.split("NOTE: ")[1][0])
     return vectors
 
+
 def main():
     start = time.time()
 
     dico = extract_csv_to_dico("./dataset/Fr_annotate.csv")
     write_feature_info("./evaluation/Fr_features", dico)
-    #print(extract_notation_vector("./evaluation/Fr_features"))
+    # print(extract_notation_vector("./evaluation/Fr_features"))
 
     end = time.time()
     print("Time: " + str(end - start))
-
