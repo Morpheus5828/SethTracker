@@ -4,15 +4,18 @@ import extract_feature as ef
 
 def write_feature_info(file_dest, dico):
     try:
-        with open(file_dest, 'w') as file:
-            for audio in dico:
+        with open(file_dest, 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(["id", "grade", "rate", "time", "intensity"])
+            for audio in dico.keys():
                 array_info = [
+                    audio,
                     dico.get(audio),
                     ef.get_rate('dataset/Fr/' + str(audio) + ".mp3"),
                     ef.get_audio_time('dataset/Fr/' + str(audio) + ".mp3"),
                     ef.get_intensity('dataset/Fr/' + str(audio) + ".mp3")
                 ]
-                writer = csv.writer(file)
+
                 writer.writerow(array_info)
         file.close()
 

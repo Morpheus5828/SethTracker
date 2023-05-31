@@ -2,9 +2,11 @@ import csv
 import os
 import librosa
 import numpy as np
+import pandas as pd
 import time
 import matplotlib.pylab as plt
 import extract_audio_information as eai
+from sklearn.linear_model import LinearRegression
 
 
 # rate beat per minute https://librosa.org/doc/main/generated/librosa.feature.tempo.html
@@ -23,7 +25,7 @@ def get_audio_time(file):
 # intensity in decibel (dB) https://librosa.org/doc/main/generated/librosa.stft.html
 def get_intensity(file):
     y, sr = eai.get_file_load_setting(file)
-    magnitude_freq = np.abs(librosa.stft(y, n_fft=512)) # 512 for voice management
+    magnitude_freq = np.abs(librosa.stft(y, n_fft=512))  # 512 for voice management
     return np.array(librosa.power_to_db(magnitude_freq ** 2))
 
 
@@ -37,88 +39,44 @@ def get_tempogram(file):
 
 
 def extract_rate_vector(txt_path_file):
-    dbs = []
-    with open(txt_path_file) as file:
-        for row in file.readlines():
-            audio_info = row.split("->")[1]
-            if audio_info.split("RATE: ")[1][0] != '-':
-                dbs.append(
-                    int(
-                        audio_info.split("RATE: ")[1][0] +
-                        audio_info.split("RATE: ")[1][1] +
-                        audio_info.split("RATE: ")[1][2]
-                    )
-                )
-    return np.array(dbs)
+    column = ["id", "grade", "rate", "time", "intensity"]
+    df = pd.read_csv(txt_path_file, usecols=column)
+    return pd.Series(df.rate).to_numpy()
 
 
 def extract_intensity_vector(txt_path_file):
-    intensity = []
-    with open(txt_path_file) as file:
-        for row in file.readlines():
-            audio_info = row.split("->")[1]
-            if audio_info.split("INTENSITY: ")[1][0] != '-':
-                intensity.append(
-                    int(
-                        audio_info.split("INTENSITY: ")[1][0] +
-                        audio_info.split("INTENSITY: ")[1][1]
-                    )
-                )
-    return np.array(intensity)
+    column = ["id", "grade", "rate", "time", "intensity"]
+    df = pd.read_csv(txt_path_file, usecols=column)
+    return pd.Series(df.intensity).to_numpy()
 
 
 def extract_grade_vector(txt_path_file):
-    grades = []
-    with open(txt_path_file) as file:
-        for row in file.readlines():
-            audio_info = row.split("->")[1]
-            if audio_info.split("GRADE: ")[1][0] != ' ':
-                if audio_info.split("GRADE: ")[1][1] == str(0):
-                    grades.append(10)
-                else:
-                    grades.append(int(audio_info.split("GRADE: ")[1][0]))
-
-    return np.array(grades)
+    column = ["id", "grade", "rate", "time", "intensity"]
+    df = pd.read_csv(txt_path_file, usecols=column)
+    return pd.Series(df.grade).to_numpy().astype(int)
 
 
 ################################################
 
-'''def extract_sample_rate(txt_path_file, list_id):
-    sample_dbs = []
-    dbs = []
-    with open(txt_path_file) as file:
-        for index in list_id:
-            for row in file.readlines():
-                audio_info = row.split("->")[1]
-                if audio_info.split("RATE: ")[1][0] != '-':
-                    dbs.append(
-                        int(
-                            audio_info.split("RATE: ")[1][0] +
-                            audio_info.split("RATE: ")[1][1] +
-                            audio_info.split("RATE: ")[1][2]
-                        )
-                    )
-    return np.array(dbs)
-    return sample_dbs
 
-
-def extract_sample_intensity(txt_path_file, list_id):
-    sample = []
-    intensities = extract_intensity_vector(txt_path_file)
-    for i in list_id:
-        sample.append(intensities[i])
-    return sample
-
-
-def extract_sample_grade(txt_path_file, list_id):'''
-
-################################################
 def main():
     start = time.time()
 
-    # write_feature_info("evaluation/Fr_features", dico_audio_note)
-    # get_freq_average("dataset/Fr/" + french_ds[0])
+    a = extract_rate_vector("evaluation/Fr_features")
+    b = extract_intensity_vector("evaluation/Fr_features")
+    print(a[0])
+    '''x = []
+    for i in range(len(a)):
+        x.append([float(a[i]), float(b[i])])
+
+    label = extract_grade_vector("evaluation/Fr_features")
+
+    model = LinearRegression()
+    model.fit(x, label)'''
+    #print(model.score(list_point, grade))
+
+
     end = time.time()
     print("Time: " + str(end - start))
 
-# main()
+main()
