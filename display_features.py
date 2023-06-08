@@ -1,9 +1,12 @@
+import math
+
 import librosa
+from scipy.io import wavfile
+from scipy.fftpack import fft
 import matplotlib.pyplot as plt
 import os
 
-from sklearn.linear_model import LinearRegression
-
+import extract_audio_information
 import extract_feature as ef
 import numpy as np
 
@@ -80,13 +83,12 @@ def display_intensity_by_rate(feature_path, list_id, title, xmax, ymax):
     model = LinearRegression()
     model.fit(list_point, grade)
     print(model.score(list_point, grade))'''
-    #plt.scatter(list_point, b)
-
+    # plt.scatter(list_point, b)
 
     '''plt.xlim(0, xmax)
     plt.ylim(0, ymax)
     plt.title(title)'''
-    #plt.plot(a, model.predict(a), c="r")
+    # plt.plot(a, model.predict(a), c="r")
 
     plt.xlabel('Rate in beat per minute')
     plt.ylabel('Intensity in dB')
@@ -107,22 +109,48 @@ def display_intensity_freq_rate(feature_path, list_id_under, list_id_over):
     ax.scatter(d, e, f, 'red')
 
 
-def display_frequency_by_time(file):
+def display_audiogram(file):
+    y, sr = librosa.load(file)
     fig, ax = plt.subplots()
-    tg = ef.get_tempogram(file)
-    dtempo = ef.get_freq_average(file)
-    librosa.display.specshow(tg, x_axis='time', y_axis='tempo', ax=ax)
-    ax.plot(librosa.times_like(dtempo), dtempo, color='c', linewidth=1.5, label='Tempo')
-    ax.set(title='Dynamic tempo estimation')
-    plt.xlabel('Time (in seconds)')
-    plt.ylabel('Beats per minute')
-    ax.legend()
-    plt.savefig(file + ".png", dpi=300)
+    D = librosa.stft(y)  # STFT of y
+    S_db = librosa.amplitude_to_db(np.abs(D), ref=np.max)
+    img = librosa.display.specshow(S_db, x_axis='time', y_axis='log', ax=ax)
+    ax.set(title='H.13.mp3 Audiogram ')
+    fig.colorbar(img, ax=ax, format="%+2.f dB")
+    plt.show()
+
+
+def display_sonogram(file):
+    y, sr = extract_audio_information.get_file_load_setting(file)
+    time = np.arange(0, len(y)) / sr
+    fig, ax = plt.subplots()
+    ax.plot(time, y)
+    ax.set_xlabel("Time in Second (s)")
+    ax.set_ylabel("Sound pressure in Pascal (Pa)")
+    ax.set_title(file + "Sonogram")
+    plt.show()
+
+
+def pascal_to_db(p) -> float:
+    try:
+        print(p)
+        return 20 * math.log10(abs(p) / 0.00002)
+    except:
+        print("pb: " + str(p))
+        return 0
+
+
+def date_to_freq(d):
+    if d == 0:
+        return d
+    return 1 / d
 
 
 def main():
     # dico = ef.convert_csv_to_dico("./dataset/Fr_annotate.csv")
     # ef.write_feature_info("./evaluation/Fr_features", dico)
+
+    display_audiogram("dataset/Fr/H.13.mp3")
 
     feature_path = "./evaluation/Fr_features"
 
@@ -130,17 +158,16 @@ def main():
     # note = ef.extract_notation_vector(feature_path)
     # tempo = ef.extract_tempo_vector(feature_path)
 
-    list_id_under_limit, note_id_under_limit, list_id_overhead_limit, note_id_overhead_limit = extract_records_gradation(
-        6)
+    '''list_id_under_limit, note_id_under_limit, list_id_overhead_limit, note_id_overhead_limit = extract_records_gradation(
+        6)'''
 
     # display_records_gradation(6)
 
-    display_intensity_by_rate(feature_path, list_id_under_limit, "Record under limit", 300, 60)
+    # display_intensity_by_rate(feature_path, list_id_under_limit, "Record under limit", 300, 60)
 
     # display_intensity_by_rate(feature_path, list_id_overhead_limit, "Record overhead limit", 300, 60)
 
     # display_intensity_freq_rate(feature_path, list_id_under_limit, list_id_overhead_limit)
-
 
     # plt.show()
 

@@ -10,7 +10,7 @@ import librosa
 
 def get_file_load_setting(file):
     if tools.exist(file):
-        y, sr = librosa.load(file, sr=1000)
+        y, sr = librosa.load(file) # sr=1000, duration=6
         return y, sr
     else:
         return None
