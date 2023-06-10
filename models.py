@@ -1,22 +1,19 @@
-import struct
-
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 import seaborn as sns
-
-import extract_feature as ef
-import tools as tl
-
-feature_path = "./evaluation/Fr_features"
-
-rate = ef.extract_rate_vector(feature_path)
-grade = ef.extract_grade_vector(feature_path)
-intensity = ef.extract_intensity_vector(feature_path)
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn import metrics
 
 fr_feature = pd.read_csv("evaluation/Fr_features")
-#print(fr_feature.info)
-print(sns.pairplot(fr_feature))
+# fr_feature.head()
 
+X = fr_feature[['rate', 'intensity']]
+Y = fr_feature['grade']
 
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3)
+regressor = RandomForestRegressor()
+Y_predict = regressor.fit(X_train, Y_train).predict(X_test)
 
+print(metrics.r2_score(Y_test, Y_predict))

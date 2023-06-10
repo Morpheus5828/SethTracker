@@ -15,7 +15,7 @@ def write_feature_info(file_dest, dico):
                  ])
             c = 0
             for audio in dico.keys():
-                if c >= 2:
+                if c >= 4:
                     break
                 array_info = [
                     audio,
@@ -38,6 +38,8 @@ def write_feature_info(file_dest, dico):
 def create_tab_for_tf(file):
     tab = ef.get_fourier_transform(file)
     result = ''
+    print(len(tab))
+    print(len(tab[0]))
     for i in range(len(tab)):
         for j in range(len(tab[i])):
             if i == len(tab) -1 and j == len(tab[i]) - 1:
